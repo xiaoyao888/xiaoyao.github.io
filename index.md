@@ -1,4 +1,6 @@
- 
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
 <TITLE>Win10系统下载_Win10激活工具_Windows10之家_Win10预览版_Win10正式版下载_Win10中文破解版下载</TITLE>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +14,9 @@
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
 <SCRIPT language="javascript" src="/templets/default/js/gotop-plugin.js"></SCRIPT>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
- 
+
+</HEAD>
+<BODY>
         <nav class="navbar navbar-default">
 
       <div class="container" style="margin-top:0px;">
@@ -551,6 +555,7 @@
 			<script src='/plus/ad_js.php?aid=2' language='javascript'></script>
 			</div>
 		</div>
+		 
 		<div class="row">
 			<div class="col-sm-12 col-md-12 mt10">
 				<div class="panel panel-custom">
@@ -623,4 +628,5 @@
 </script>
 
 	<script type="text/javascript" src="/templets/default/js/main.js" ></script>
- 
+</BODY>
+</HTML>
