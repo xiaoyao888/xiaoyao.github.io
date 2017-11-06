@@ -1,65 +1,35 @@
 body{font-family: "Microsoft YaHei";background:#E1E1E1}
-
 .all_list {PADDING-BOTTOM: 0px; MARGIN: 0px;margin-top: 3px;margin-bottom: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(/templets/default/images/sdcms.gif) no-repeat -86px 6px; PADDING-TOP: 0px;}
 
 .all_list li {LINE-HEIGHT: 25px; PADDING-LEFT: 25px;overflow:hidden;list-style-type:none;}
-
 .all_list A {FLOAT:left;COLOR: #000;width:82%;display: block; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
 
 .all_list A:hover {COLOR: #f30}
-
 .all_list SPAN {FLOAT: right; COLOR: #999}
-
 .all_list DIV {LINE-HEIGHT: 15px; COLOR: #999}
-
 .panel-custom{border:2px solid #F7F7F7;min-height: 308px;}
-
 .panel-heading{height: 40px;background: #F7F7F7;color: #2186D3;BORDER-bottom: #2186D3 3px solid;}
-
 .panel-heading a{color:#2186D3;text-decoration:none;}
-
 .panel-heading a:hover{color:#f30;text-decoration:none;}
-
 .panel-body{padding: 4px 4px 4px 4px;}
-
 .list-group{margin-top: 3px;margin-bottom: 3px;}
-
 .index_link {PADDING:0px; MARGIN: 0px;WIDTH: 100%;list-style-type:none;}
-
 .index_link li{ float:left; width:auto; margin:0 5px 0 5px}
-
 .index_link DT {PADDING-BOTTOM: 3px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; MARGIN-BOTTOM: 5px; FLOAT: left; PADDING-TOP: 3px}
-
 .index_link A {	PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; COLOR: #444444; PADDING-TOP: 0px}
-
 .footer{width:100%;clear:both;background:#2186D3;margin:0px;padding:0px;margin-top:20px;}
-
 .foot{margin:0px auto;padding-top:10px;min-height:150px;}
-
 .foot{line-height:20px;text-align:center;font-size:12px;color:#FFFFFF;}
-
 .foot a{color:#FFFFFF;text-decoration: none;text-align:center;}
-
 .foot a:hover{color:#ff3300;}
-
-
-
 .art_spec_list{}
-
 .art_spec_list li{height:25pxline-height:25px;}
-
 .art_spec_list a{font-size:16px;}
-
 .art_spec_list span{float:right}
-
 .listsubname{height:auto;padding-bottom: 5px;}
-
 .listsubname a{width:145px;height:50px;line-height: 35px;margin-right: 5px;margin-top: 5px;font-size: 20px;}
-
 .clear{clear:both;}
-
 .pagination select{height:34px;width:60px;}
-
 #imgModal{Z-index:10000}
 .art_content{padding: 1%;font-size:16px;overflow: hidden;}
 .art_content p{text-indent:2em;}
@@ -92,3 +62,6 @@ body{font-family: "Microsoft YaHei";background:#E1E1E1}
 .dmry_ad_a img{width:100%};
 .container{padding-right:0px;padding-left:0px}
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-weight:900}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+padding:0 5px;
+}	
