@@ -1,4 +1,3 @@
-###
 <!DOCTYPE HTML>
 <HTML>
 <HEAD>
@@ -8,13 +7,13 @@
 <META name="keywords" content="">
 <META name="description" content="">
 <LINK rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
-<link href="/templets/default/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
 <link href="/templets/default/css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="/templets/default/css/theme.css" rel="stylesheet">
 <link href="/templets/default/css/index.css" rel="stylesheet" type="text/css"/>
-<SCRIPT language="javascript" src="/templets/default/js/jquery-2.1.3.js"></SCRIPT>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
 <SCRIPT language="javascript" src="/templets/default/js/gotop-plugin.js"></SCRIPT>
-<script type="text/javascript" src="/templets/default/js/bootstrap.min.js" ></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
 
 </HEAD>
 <BODY>
@@ -710,4 +709,4 @@
 	<script type="text/javascript" src="/templets/default/js/main.js" ></script>
 </BODY>
 </HTML>
-###
+##
