@@ -1,0 +1,14 @@
+
+/*------------COMMON START-----------*/
+ul{list-style-type:none}
+.mt10 {MARGIN-TOP: 10px;}
+.mr10 {MARGIN-RIGHT: 10px}
+.mb10 {MARGIN-BOTTOM: 10px}
+.ml10 {MARGIN-left: 10px}
+
+/*------------COMMON END-----------*/
+
+.software_header{
+    height: 300px;
+    background: #0062b4 url(/images/software_header_bg.png) center no-repeat;
+}

@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.title/}_ {dede:field name='typename' function="GetTypeName（@me）"/}_Win10系统</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/home.css" rel="stylesheet" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery.min.js"></script>
+
+<link href="{dede:global.cfg_templets_skin/}/css/bootstrap.min.css" rel="stylesheet">
+<script src="{dede:global.cfg_templets_skin/}/js/bootstrap.min.js"></script>
+<link href="/templets/default/css/messageBox.css" rel="stylesheet">
+<script type="text/javascript" src="/templets/default/js/messageBox.js"></script> 
+<SCRIPT language="javascript" src="/templets/default/js/gotop-plugin.js"></SCRIPT>
+
+</head>
+
+<body>
+{dede:include filename="head.htm"/}
+<div class="zwqu">
+<div class="list" style="width:785px;">
+      <ol class="breadcrumb">
+      当前位置：{dede:field name='position'/}
+      </ol>
+<ul class="lisbt" style="width:785px;">
+  <li><span>{dede:field.title/}</span></li>
+  <li><a href="{dede:global.cfg_basehost/}" title="{dede:global.cfg_basehost/}">{dede:global.cfg_basehost/}</a>&nbsp;<a href="{dede:global.cfg_basehost/}">win10系统</a>  发布时间：{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/} 来源：{dede:field.source/} 浏览：<span id="count"style="font-size:14px;">加载中</span>
+次</li>
+</ul>
+<div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接，<a href="#" onclick="anchorClick()" style="font-size:20px;color:#fff;">去点赞</a></div>
+<ul><li style="margin-left:180px">{dede:include filename="../templets/default/baidushare.htm"/}</li></ul>
+  <ul class="lisnr" id={dede:field.id/}>
+    <li>{dede:field.body/}</li>
+    <li>
+        <script src='/plus/ad_js.php?aid=10' language='javascript'></script>
+    </li>
+    <li>
+      
+      <div style="text-align:center" class="well">
+        <div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接</div>
+        <div style="padding-left:40%">
+        <!-- 将此标记放在您希望显示like按钮的位置 -->
+        <div class="bdlikebutton" id="bdlikebutton"></div>
+        <!-- 将此代码放在适当的位置，建议在body结束前 -->
+        <script id="bdlike_shell"></script>
+        <script>
+        var bdShare_config = {
+	"type":"large",
+	"color":"blue",
+	"likeText":"内容很精彩",
+	"likedText":"您已顶过，谢谢！"
+        };
+        document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + Math.ceil(new Date()/3600000);
+        </script>
+      </div>
+      <div>亲，如果能帮助到你帮忙《点赞》或者《打赏》一下小编哦！</div>
+      <div><img src="/templets/default/images/weixin.png" width="200" height="200"/></div>
+      </div>
+    </li>
+  </ul>
+<div class="pnum">
+<div class="pages mypagelist">
+<div>{dede:pagebreak/}</div>
+</div>
+</div>
+<div class="pre_next">
+    <ul>
+        <li>{dede:prenext get='pre' /}</li>
+        <li>{dede:prenext get='next' /}</li>
+    </ul>
+</div>
+<div id="lianxi" class="well">
+如果你有好的<a href="/win10zixun" title="win10资讯">win10资讯</a>或者<a href="/win10jiqiao" title="win10教程">win10教程</a>，以及<a href="/win10xitong" title="win10">win10</a>相关的问题想要获得<a href="/win10xitong" title="win10系统">win10系统</a>的关注与报道。<br/>
+欢迎点击右下角发送邮件给我们。期待你的好消息！
+</div>
+<div class="neiart">
+<ul class="neituzs_article">
+{dede:arclist limit='0,10' titlelen=40 flag ='p' orderby='pubdate' }
+  <li>[field:imglink/]<br />[field:textlink/]</li>
+{/dede:arclist}
+</ul>
+</div>
+</div>
+
+<div class="listy">
+<div id="scr_cont" class="scr_ad">
+<script src='/plus/ad_js.php?aid=12' language='javascript'></script>
+</div>
+<div class="xguanrm" style="color:#FFF">最新文章>>></div>
+<div class="renei_new">
+{dede:arclist  row=6 titlelen=88 infolen=160 orderby='pubdate' }
+<div class="renei_new_pic" ><img src="[field:litpic/]" alt="[field:fulltitle/]"/></div><div class="renei_new_tit"><a href='[field:arcurl/]'>[field:title/]</a><br/><span>[field:pubdate function='strftime("%Y-%m-%d %H:%M:%S",@me)'/] </span><span style="padding-left:8px;color:#26AAF5">[field:click/]次</span></div>
+{/dede:arclist}
+</div>
+<div id="scr_cont" class="scr_ad">
+<script src='/plus/ad_js.php?aid=14' language='javascript'></script>
+</div>
+<div class="xguanrm" style="color:#FFF">相关热门>>></div>
+<ul class="renei">
+{dede:arclist  row=9 titlelen=40 orderby='click' }
+<li><span>[field:click/]</span><a href='[field:arcurl/]'>[field:title/]</a> </li>
+{/dede:arclist}
+</ul>
+</div>
+<div id="scr_cont" class="scr_ad">
+<script src='/plus/ad_js.php?aid=15' language='javascript'></script>
+</div>
+</div>
+
+
+<div class="messageBox" id="messageBox">
+	<div id="bottomad" class="bottomad well">
+		<div class="adclose pull-right" id="adclose">X</div> 
+		<br/>
+		没找到答案？有好建议？<br/><br/>
+		<a class="btn btn-primary" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=aF5dX1haXVlfWSgZGUYLBwU">点击发邮件</a>
+	</div> 
+</div> 
+
+{dede:include filename="footer.htm"/}
+<span id="count_data" style="display:none"><script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script></span>
+<script type="text/javascript">
+document.getElementById('count').innerHTML = document.getElementById('count_data').innerHTML;
+</script>
+<script src="{dede:global.cfg_templets_skin/}/js/article.js"></script>
+</body>
+</html>

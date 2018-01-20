@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>内容搜索页</title>
+<link href="{dede:global.cfg_templets_skin/}/style/home.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+{dede:include filename="head.htm"/}
+<div class="zwqu">
+<div class="dqian"><ul><li>当前位置：{dede:field name='position'/}</li></ul>
+</div>
+<div class="list">
+{dede:list pagesize='12'}
+<ul class="listye">
+<ul class="riqi2"><li>[field:pubdate function=MyDate('d',@me)/]<span>日</span></li></ul>
+<li><span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></span><br />[field:description/]...</li>
+</ul>
+{/dede:list}
+<ul class="jogger"><li>{dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}</li></ul>
+</div>
+<div class="listy">
+<ul class="soso">
+<form class="sou" method="post" name="search" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+<input type="text" id="kuang" value="" name="keyword"class="swap_value" /> 
+<input type="image" src="{dede:global.cfg_templets_skin/}/images/so.gif" width="60" height="35" class="go" alt="Search" title="search">
+</form>
+<script src='/plus/ad_js.php?aid=1' language='javascript'></script>
+<ul class="xguanrm">最新文章>>></ul>
+<ul class="renei">
+{dede:arclist  row=9 titlelen=40 infolen=160 orderby='pubdate' }
+<li><span>[field:click/]</span><a href='[field:arcurl/]'>[field:title/]</a> </li>
+{/dede:arclist}
+</ul>
+<ul class="neituzs">
+{dede:arclist row=4 titlelen=20 flag ='p' orderby='pubdate' }
+  <li>[field:imglink/]<br />[field:textlink/]</li>
+{/dede:arclist}
+</ul>
+<ul class="xguanrm">相关搜索>>></ul>
+<ul class="renei">
+{dede:arclist  row=9 titlelen=40 orderby='click' }
+<li><span>[field:click/]</span><a href='[field:arcurl/]'>[field:title/]</a> </li>
+{/dede:arclist}
+</ul>
+</div>
+
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>教你在MacBook安装Win10 双系统玩转Win10_win10系统下载_win10激活工具_win10os</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="教,你在,MacBook,安装,Win10,双,系统,玩转," />
+  <meta name="description" content="最近科技界最大的新闻莫过于微软提前于7月29日发布了Windows10正式版下载，作为微软旗下最新一代的操作系统，也是微软首个将桌面和移动结合在一起的Windows操作系统，一经发布便引起了巨大" />
+  	<!-- Bootstrap core CSS -->
+	<link href="/templets/default/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap theme -->
+	<link href="/templets/default/css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="/templets/default/css/theme.css" rel="stylesheet">
+	<script src="/templets/default/js/jquery-2.1.3.js"></script>
+	<script src="/templets/default/js/bootstrap.min.js"></script>
+
+	<link href="/templets/default/css/main.css" rel="stylesheet">
+	<script src="/templets/default/js/main.js"></script>
+
+
+<SCRIPT language="javascript" src="/templets/default/js/gotop-plugin.js"></SCRIPT>
+</head>
+<body>
+      <nav class="navbar navbar-default">
+
+      <div class="container" style="margin-top:0px;">
+
+        <div class="row" style="line-height:45px;">
+
+          欢迎光临，看最新win10资讯，下载win10系统就上www.win10os.com！<span class="hidden-xs"><a href="javascript:void(0)" class="pull-right" onclick="alert('按Ctrl+D收藏本站')" title="win10系统">收藏本站</a></span>
+
+        </div>
+
+      </div>      
+
+    </nav>
+
+    <div class="container" style="margin-top:0px;">
+      <div class="row" >
+
+        <div class="col-sm-8 col-md-8">
+
+            <a href="/index.html"><img src="/images/logo.png" alt="Windows10系统下载,Win10激活,Win10教程" width="196" height="64"/></a>
+
+        </div>
+        <div class="col-sm-4 col-md-4">
+        <div style="height:45px;">
+        <form  method="post" id="searchFrm" role="search" action="/plus/search.php">
+            <div class="input-group">
+                <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Search">
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" onclick="searchKey()">搜索</button>
+                </span>
+            </div><!-- /input-group -->
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-custom">
+
+      <div class="container">
+
+
+<!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header navbar-header-custom">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" title="Win10,win10系统,Win10教程" href="/">首页</a>
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav nav-custom">
+			<li><a href="/win10zixun" title="Win10资讯,win10最新资讯" target="_blank">Win10资讯</a></li>
+			<li><a href="/win10xiazai" title="Win10下载,win10系统下载,win10正式版下载" target="_blank">Win10下载</a></li>
+			<li><a href="/win10ruanjian" title="Win10软件,win10小工具" target="_blank">Win10软件</a></li>
+			<li><a href="/win10bizhi" title="Win10壁纸,win10系统壁纸,win10壁纸下载" target="_blank">Win10壁纸</a></li>
+			<li><a href="/win10jiqiao" title="Win10技巧,win10系统技巧,win10" target="_blank">Win10技巧</a></li>
+			<li><a href="/win10youhua" title="Win10优化,win10系统优化" target="_blank">Win10优化</a></li>
+			<li><a href="/win10jihuo" title="Win10激活,win10怎么激活,win10如何激活,win10激活工具" target="_blank">Win10激活</a></li>
+			<li><a href="/win10xitong" title="Win10系统,Win10系统教程,win10正式版激活" target="_blank">Win10系统</a></li>
+		</ul>
+          
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-fluid -->
+
+    </nav>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+       <div class="modal-dialog">
+
+          <div class="modal-content">
+
+             <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" 
+
+                   aria-hidden="true">×
+
+                </button>
+
+                <h4 class="modal-title" id="myModalLabel">
+
+                   搜索提示
+
+                </h4>
+
+             </div>
+
+             <div class="modal-body">
+
+                <div style="height:60px;line-height:60px;">
+
+                  关键字不能小于2个字！
+
+                </div>
+
+             </div>
+
+          </div><!-- /.modal-content -->
+
+       </div><!-- /.modal-dialog -->
+
+    </div><!-- /.modal -->
+<script type="text/javascript">
+  function searchKey(){
+    var keyword = $("#keyword").val();
+    if(keyword.length<2){
+      $('#myModal').modal('show');     
+      return;
+    }else{
+      $("#searchFrm").submit();
+    }
+
+  }
+</script>
+  <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-hidden="true">
+	   <div class="modal-dialog">
+		  <div class="modal-content">
+			 <div class="modal-body">
+				<div id="modal_img" ></div>
+			 </div>
+		  </div>
+	   </div>
+	</div>
+  <div class="container" style="padding-left:0px;padding-right:0px">
+    
+    <div class="col-sm-8  col-md-8">
+      <ol class="breadcrumb">
+      当前位置：<a href='http://www.win10os.com/'>主页</a> > <a href='/win10jiqiao/'>Win10技巧</a> > 
+      </ol>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="art_title">
+            <h3>教你在MacBook安装Win10 双系统玩转Win10</h3>
+            <a href="http://www.win10os.com" title="http://www.win10os.com">http://www.win10os.com</a>&nbsp;<a href="http://www.win10os.com">win10系统</a>  发布时间：2015-08-05 23:40 来源：win10系统 浏览：<span id="count"style="font-size:14px;">加载中</span>次
+          </div>
+          <div class="art_body">
+            <div class="art_share"><div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare" style="width:650px;height:50px;padding-top:10px;" >
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more"></span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END --></div></div>
+<div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接，<a href="#" onclick="anchorClick()" style="font-size:20px;color:#fff;">去点赞</a></div>
+            <div id="673" class="art_content"><p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	最近科技界最大的新闻莫过于微软提前于7月29日发布了Windows10正式版下载，作为微软旗下最新一代的操作系统，也是微软首个将桌面和移动结合在一起的Windows操作系统，一经发布便引起了巨大的反响。仅在7月29日至8月1日这几天，Windows10的市场份额就达到了2.47%，装机量达到了6700万台！与之相比，苹果OS X的市场份额则出现了明显的下滑。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/23343235F-0.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">Win10的市场表现强势</span></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	众所周知，苹果最新一代的桌面操作系统OS X El Capitan正式版需要等到秋季才会开放下载。在这漫长的等待中，OS X的用户不妨试试在自己的MacBook上体验下这款微软最新的操作系统，让自己也能在OS X和Windows系统中体验不一样的感觉。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334326161-1.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">OS X El Capitan系统秋季发布</span></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	在OS X系统中，苹果提供了两种方案让MacBook装Win10体验：虚拟机安装Win10和双系统安装Win10。两者相比，虚拟机装Win10的优势在于用户可以直接在OS X系统中直接调出Win10系统，无需重启；同时虚拟机需要分割使用硬件内存，有一定的性能损耗，并不是完整的&ldquo;Windows&rdquo;。而双系统安装Win的优势则在于安装的是一个完整的&ldquo;Windows&rdquo;，提供最好的体验；不过双系统不方便之处在于每次调用Windows系统的时候都必须重启系统，同时安装双系统Win10的话，需要割分硬盘容量，这对于小容量内存的Mac用户而言无疑有很大的难处。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334326161-2.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">作为OS X用户，你会愿意双系统安装Win10体验下吗？</span></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	为了让Mac用户更完美的体验Windows10系统，小编在接下教大家如何在MacBook双系统安装Win10，双系统安装教程如下：</p>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	<strong>双系统安装Win10准备工具：</strong></p>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	1.下载好所需的Win10镜像文件。</p>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	2.准备好一个8G或以上的U盘（建议USB3.0最佳）</p>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	3.Mac电脑　　</p>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	<strong>双系统安装Win10步骤：</strong></p>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	1.打开Launchpad--进入其他--打开Boot Camp助理</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334323G7-3.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	&nbsp;</div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/23343222E-4.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<p class="img_wrapper" style="padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<span style="font-size:14px;"><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">2.勾选第一和第三选项后按继续。</span></span></p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334325U8-5.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	3.ISO映像选择你下载好的Win10.iSO镜像路径，注意：请勿将Win10.ISO镜像放置在U盘中，因稍后操作会对U盘进行格式化，放置U盘中会导致无法获取镜像。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334322601-6.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/233432I10-7.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/23343240O-8.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	4.点击继续后，Boot Camp助理便会自动创建所有的Windows镜像，下载支持的Windows驱动至U盘中。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334322C0-9.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334326033-10.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334324B2-11.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334323008-12.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	5.完成下载Windows10驱动支持后，便可以对硬盘容量进行分区。由用户自由选择分配多少硬盘容量给Windows10系统使用，亦可选择均等分割。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334323522-13.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334325231-14.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<p class="img_wrapper" style="padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<span style="font-size:14px;"><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">6.待分区完成后，电脑便会自动重启，进入安装Windows10系统的最后阶段。</span></span></p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334325c0-15.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">选好安装语言后点击下一步</span></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334324519-16.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">需要输入激活密匙，亦可点算稍后输入</span></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/233432K21-17.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">按需要选择安装Windows10专业版或家庭版</span></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/233432D25-18.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">点击下一步</span></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334323559-19.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">选取升级完整的Windows，选择自定义的话会提示失败</span></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334325034-20.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	选着安装的硬盘为BootCamp (PS:在点击下一步之前，需要选择Boot Camp并格式化，否则会提示安装格式错误)</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334324Z1-21.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334322E3-22.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">点击下一步后便等系统自动安装。</span></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	7.上述设置设置完成后电脑会再次重启，并进入Windows的个性化选项，完成后便可以进入Windows10系统了。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334322555-23.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/233432C06-24.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">个性化设置</span></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334322241-25.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">这不需要很长时间（确实...等了很长时间）</span></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334322S1-26.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">终于进入到Windows10系统</span></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	8.安装完成Windows10系统之后，我们会发现字体非常的小，同时无法连接网络等。这是因为Win10的驱动并没有安装。我们只需要打开刚刚安装Win10时使用的U盘，进入BootCamp文件夹，点击Setup。苹果便会帮你安装好所有的驱动。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334324D4-27.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334326117-28.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/23343244W-29.jpg" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">安装完驱动之后，双系统安装Win10的工作便正式完成</span></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	9.待BootCamp设置安装驱动完成后，Windows10系统正式安装完毕。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/233432OP-30.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">大功告成</span></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	10.双系统安装Win10之后，用户在启动电脑时，按着&ldquo;Option&rdquo;，便可以进入系统选择界面，选择启动OS X系统或者Win10系统。亦可在OS X系统中的设置--启动磁盘--选择Win10系统或者OS X系统作为默认的启动系统。</p>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334322060-31.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /></div>
+<div class="img_wrapper" style="text-align: center; padding-bottom: 5px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; font-size: 14px; line-height: 23px;">
+	<img alt="" src="/uploads/allimg/150805/2334323Z9-32.png" style="margin: 0px auto; padding: 0px; border: 1px solid rgb(231, 231, 231); display: block;" width="550" /><span class="img_descr" style="line-height: 20px; padding: 6px 0px; color: rgb(102, 102, 102); font-size: 12px; margin: 5px auto; display: inline-block; zoom: 1; text-align: left;">选择默认的启动系统</span></div>
+<p style="margin: 15px 0px; padding: 0px; font-size: 14px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 宋体; line-height: 23px;">
+	以上便是小编为大家整理的Mac双系统安装Win10的详细教程。对于MacBook Pro和New MacBook而言，对其高分辨率屏幕兼容最好的就是Windows10系统了，因此小编推荐上述型号的用户安装双系统的话还是选择Win10吧。不过，MacBook在Windows系统下的发热风扇狂转等问题依旧没有改善，因此不是非常必要的话，也可以多使用OS X系统。稍后待新版虚拟机Parallels Desktop 11发布后，小编也将第一时间奉上虚拟机安装Win10的教程，现在就请网友们先双系统玩转Win10吧！</p>
+</div>
+            <div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接</div>
+  	    <!-- 将此标记放在您希望显示like按钮的位置 -->          
+            <div class="art_like"><div class="bdlikebutton"></div></div>
+            <div style="text-align:center;font-size:20px;font-weight:bold;color:#ff0000">亲，如果能帮助到你,帮忙《打赏1-10元》给小编一口饭吃！</div>
+            <div style="text-align:center">
+			<img src="/templets/default/images/thanks.gif" width="160" height="160"/>
+			<img src="/templets/default/images/weixin.png" width="250" height="250"/>
+			<img src="/templets/default/images/thanks.gif" width="160" height="160"/>
+			</div>
+          </div>
+        </div>
+      </div>
+      <div class="pnum">
+        <div class="pages mypagelist">
+          <div></div>
+        </div>
+      </div>
+      <div class="pre_next">
+        <nav>
+          <ul class="pager">
+            <li class="previous">上一篇：<a href='/win10jiqiao/2015/0731/668.html'>我的Win7/Win8.1到底能免费升级到哪个版本的Win10？</a> </li>
+            <li class="next">下一篇：<a href='/win10jiqiao/2015/0831/682.html'>Win10预览版10125中文语言包安装及乱码解决方法</a> </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="well"> 
+    		如果你有好的<a href="http://www.win10os.com/win10zixun" title="win10资讯">win10资讯</a>或者<a href="http://www.win10os.com/win10jiqiao" title="win10教程">win10教程</a>，以及<a href="http://www.win10os.com/win10xitong" title="win10">win10</a>相关的问题想要获得<a href="http://www.win10os.com/win10xiazai" title="win10系统下载">win10系统下载</a>的关注与报道。<br/>欢迎加入发送邮件到657025171#qq.com(#替换为@)。期待你的好消息！
+    	</div>  
+      <div class="row">
+        
+          <div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10jiqiao/2017/0915/964.html'><img src='/uploads/allimg/170915/1-1F915134A8-lp.png' border='0' width='120' height='120' alt='win10自带移动热点这么好用，随身wifi可以扔了！'></a>
+              <div class="caption">
+                <p><a href='/win10jiqiao/2017/0915/964.html'>win10自带移动热点这么</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10jiqiao/2017/0209/948.html'><img src='/uploads/allimg/161228/15-16122Q11415-lp.png' border='0' width='120' height='120' alt='Win10计算器如何打开和使用'></a>
+              <div class="caption">
+                <p><a href='/win10jiqiao/2017/0209/948.html'>Win10计算器如何打开和</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10jiqiao/2017/0209/947.html'><img src='/uploads/allimg/161228/15-16122Q05321-50-lp.jpg' border='0' width='120' height='120' alt='Win10系统音量无法调节怎么办'></a>
+              <div class="caption">
+                <p><a href='/win10jiqiao/2017/0209/947.html'>Win10系统音量无法调节</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10jiqiao/2017/0209/946.html'><img src='/uploads/allimg/170101/15-1F101162U7-lp.png' border='0' width='120' height='120' alt='Win10系统设置默认输入法的方法'></a>
+              <div class="caption">
+                <p><a href='/win10jiqiao/2017/0209/946.html'>Win10系统设置默认输入</a></p>              
+                
+              </div>
+            </div>
+          </div>
+
+        
+      </div>
+    </div>
+    <!--右侧部分-->
+    <div class="col-sm-4 col-md-4">
+      <script src='/plus/ad_js.php?aid=12' language='javascript'></script>
+      <div class="panel panel-custom panel-custom-right">
+        <div class="panel-heading">最新文章>>></div>
+        <div class="panel-body">
+          <ul class="all_list">
+            <li><a href="/win10jiqiao/2017/0915/964.html" >win10自带移动热点这么好用，随身wifi可以扔了！</a><span>09.15</span></li>
+<li><a href="/win10jiqiao/2017/0809/963.html" >利用Win10通知巧妙实现UWP桌面歌词</a><span>08.09</span></li>
+<li><a href="/win10jiqiao/2017/0622/956.html" >Win10秋季创意者更新16215如何解决输入法、QQ占用资源问题</a><span>06.22</span></li>
+<li><a href="/win10jiqiao/2017/0209/948.html" >Win10计算器如何打开和使用</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0209/947.html" >Win10系统音量无法调节怎么办</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0209/946.html" >Win10系统设置默认输入法的方法</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0209/944.html" >Win10系统如何用大图标查看缩略图</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0209/945.html" >Win10系统如何关闭Microsoft产品更新</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0206/943.html" >Win10系统让QQ显示在通知栏的方法</a><span>02.06</span></li>
+<li><a href="/win10jiqiao/2017/0206/942.html" >Win10查看文件属性的快捷方法</a><span>02.06</span></li>
+ 
+          </ul>
+        </div>
+      </div>  
+      <script src='/plus/ad_js.php?aid=14' language='javascript'></script>
+      <div id="scr_cont" class="panel panel-custom panel-custom-right">
+        <div class="panel-heading">相关热门>>></div>
+        <div class="panel-body">
+          <ul class="all_list">
+            <li><a href="/win10jiqiao/2014/1119/178.html" >怎样在win10里面手动设置开机启动</a><span>4475</span></li>
+<li><a href="/win10jiqiao/2014/1016/29.html" >电脑如何进入BIOS设置</a><span>3532</span></li>
+<li><a href="/win10jiqiao/2014/1019/39.html" >Win10预览版水印如何去除，Window</a><span>3285</span></li>
+<li><a href="/win10jiqiao/2015/0126/475.html" >win10 9926开始键打不开，不管用怎</a><span>3062</span></li>
+<li><a href="/win10jiqiao/2015/0923/747.html" > Win10新建磁盘分区图文教程 Win1</a><span>2961</span></li>
+<li><a href="/win10jiqiao/2015/0128/489.html" >win10 9926激活工具下载，win10 9926激</a><span>2479</span></li>
+<li><a href="/win10jiqiao/2015/0126/476.html" >win10怎么开启小娜功能,教你如何开</a><span>2110</span></li>
+<li><a href="/win10jiqiao/2014/1016/28.html" >如何制作Windows10系统U盘启动盘</a><span>1907</span></li>
+<li><a href="/win10jiqiao/2015/0608/642.html" >Win10系统下鼠标的常见故障及解决</a><span>1882</span></li>
+<li><a href="/win10jiqiao/2014/1012/10.html" >Win10系统快速关机方法大全【图文</a><span>1800</span></li>
+ 
+          </ul>
+          </ul>
+        </div>
+      </div>
+      <script src='/plus/ad_js.php?aid=15' language='javascript'></script>
+    </div>
+    
+  </div>
+  <nav class="navbar navbar-default navbar-fixed-bottom navbar-bottom-custom">
+    <div class="container">
+      <span class="pull-right navbar-text" id="font_smaller" onclick="changeFont('smaller')">A-</span>&nbsp;&nbsp;<span class="pull-right navbar-text" id="font_bigger" onclick="changeFont('bigger')">A+</span>
+    </div>
+  </nav>
+  <div class="footer">
+	<div class="foot">
+		<ul>
+			<li>
+				<a href="/win10zixun" title="Win10资讯,win10最新资讯,win10最新消息" target="_blank">Win10资讯</a>
+				<a href="/win10xiazai" title="Win10下载,win10下载地址,win10系统下载,win10如何下载"  target="_blank">Win10下载</a>
+				<a href="/win10ruanjian" title="Win10软件,win10小工具" target="_blank">Win10软件</a>
+				<a href="/win10zhuti" title="Win10主题,win10系统主题,win10主题下载" target="_blank">Win10主题</a>
+				<a href="/win10bizhi" title="Win10壁纸,win10系统壁纸,win10壁纸下载" target="_blank">Win10壁纸</a>
+				<a href="/win10jiqiao"  title="Win10技巧,win10系统技巧,win10" target="_blank">Win10技巧</a>
+				<a href="/win10youhua" title="Win10优化,win10系统优化" target="_blank">Win10优化</a>
+				<a href="/win10jihuo" title="Win10激活,win10怎么激活,win10如何激活,win10激活工具,win10激活密钥" target="_blank">Win10激活</a>
+				<a href="/win10xitong" title="Win10系统,Win10系统教程" target="_blank">Win10系统</a>
+			</li>
+		</ul>
+		<ul>
+			<li><a href="/aboutus.html" target="_blank">关于我们</a> | <a href="/contactus.html" target="_blank">联系我们</a> | <a href="/copyright.html" target="_blank">版权声明</a> | <a href="/sitemap.xml" target="_blank">网站地图</a></li>
+                        <li>本站发布的系统与软件仅为个人学习测试使用，请在下载后24小时内删 除，不得用于任何商业用途，否则后果自负。</li>
+                        <li>Copyright © 2014 - 2016 win10os.com All Rights Reserved.</li>
+                        <li>win10os 版权所有 京ICP备11048740号</li>
+		</ul>
+	</div>
+</div>
+<!-- win10os.com Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?be73a9ebf08a1a67fa05d4ab1764622e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+ 
+  <span id="count_data" style="display:none">
+    <script src="/plus/count.php?view=yes&aid=673&mid=1" type='text/javascript' language="javascript">
+    </script>
+  </span>
+  <script type="text/javascript">
+    document.getElementById('count').innerHTML = document.getElementById('count_data').innerHTML;
+  </script>
+    <script>
+      var img = $(".art_content p").find("img")
+      $.each(img,function(index,el){
+        el.style.width='100%';
+      });
+    </script>
+
+  <!-- 将此代码放在适当的位置，建议在body结束前 -->
+  <script id="bdlike_shell"></script>
+  <script>
+
+  var bdShare_config = {
+
+  	"type":"large",
+
+  	"color":"blue",
+
+  	"likeText":"内容很精彩",
+
+  	"likedText":"您已顶过，谢谢！"
+
+  };
+
+  document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + Math.ceil(new Date()/3600000);
+
+  </script>
+  <script src="/templets/default/js/article.js"></script>
+</body>
+</html>

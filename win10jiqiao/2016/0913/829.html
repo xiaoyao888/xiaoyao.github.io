@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>固态硬盘怎么看是否4k对齐 2种查看SSD是否4K对齐_win10系统下载_win10激活工具_win10os</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="固态,硬盘,怎么,看,是否,对齐,2种,查看,SSD," />
+  <meta name="description" content="了解SSD的朋友都知道，4K对齐是固态硬盘分区时非常重要的一项操作，如果SSD没有4K对齐，会造成跨区读写，不仅影响固态硬盘速度，还会影响SSD寿命。那么，固态硬盘怎么看是否4k对齐？很多朋" />
+  	<!-- Bootstrap core CSS -->
+	<link href="/templets/default/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap theme -->
+	<link href="/templets/default/css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="/templets/default/css/theme.css" rel="stylesheet">
+	<script src="/templets/default/js/jquery-2.1.3.js"></script>
+	<script src="/templets/default/js/bootstrap.min.js"></script>
+
+	<link href="/templets/default/css/main.css" rel="stylesheet">
+	<script src="/templets/default/js/main.js"></script>
+
+
+<SCRIPT language="javascript" src="/templets/default/js/gotop-plugin.js"></SCRIPT>
+</head>
+<body>
+      <nav class="navbar navbar-default">
+
+      <div class="container" style="margin-top:0px;">
+
+        <div class="row" style="line-height:45px;">
+
+          欢迎光临，看最新win10资讯，下载win10系统就上www.win10os.com！<span class="hidden-xs"><a href="javascript:void(0)" class="pull-right" onclick="alert('按Ctrl+D收藏本站')" title="win10系统">收藏本站</a></span>
+
+        </div>
+
+      </div>      
+
+    </nav>
+
+    <div class="container" style="margin-top:0px;">
+      <div class="row" >
+
+        <div class="col-sm-8 col-md-8">
+
+            <a href="/index.html"><img src="/images/logo.png" alt="Windows10系统下载,Win10激活,Win10教程" width="196" height="64"/></a>
+
+        </div>
+        <div class="col-sm-4 col-md-4">
+        <div style="height:45px;">
+        <form  method="post" id="searchFrm" role="search" action="/plus/search.php">
+            <div class="input-group">
+                <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Search">
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" onclick="searchKey()">搜索</button>
+                </span>
+            </div><!-- /input-group -->
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-custom">
+
+      <div class="container">
+
+
+<!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header navbar-header-custom">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" title="Win10,win10系统,Win10教程" href="/">首页</a>
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav nav-custom">
+			<li><a href="/win10zixun" title="Win10资讯,win10最新资讯" target="_blank">Win10资讯</a></li>
+			<li><a href="/win10xiazai" title="Win10下载,win10系统下载,win10正式版下载" target="_blank">Win10下载</a></li>
+			<li><a href="/win10ruanjian" title="Win10软件,win10小工具" target="_blank">Win10软件</a></li>
+			<li><a href="/win10bizhi" title="Win10壁纸,win10系统壁纸,win10壁纸下载" target="_blank">Win10壁纸</a></li>
+			<li><a href="/win10jiqiao" title="Win10技巧,win10系统技巧,win10" target="_blank">Win10技巧</a></li>
+			<li><a href="/win10youhua" title="Win10优化,win10系统优化" target="_blank">Win10优化</a></li>
+			<li><a href="/win10jihuo" title="Win10激活,win10怎么激活,win10如何激活,win10激活工具" target="_blank">Win10激活</a></li>
+			<li><a href="/win10xitong" title="Win10系统,Win10系统教程,win10正式版激活" target="_blank">Win10系统</a></li>
+		</ul>
+          
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-fluid -->
+
+    </nav>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+       <div class="modal-dialog">
+
+          <div class="modal-content">
+
+             <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" 
+
+                   aria-hidden="true">×
+
+                </button>
+
+                <h4 class="modal-title" id="myModalLabel">
+
+                   搜索提示
+
+                </h4>
+
+             </div>
+
+             <div class="modal-body">
+
+                <div style="height:60px;line-height:60px;">
+
+                  关键字不能小于2个字！
+
+                </div>
+
+             </div>
+
+          </div><!-- /.modal-content -->
+
+       </div><!-- /.modal-dialog -->
+
+    </div><!-- /.modal -->
+<script type="text/javascript">
+  function searchKey(){
+    var keyword = $("#keyword").val();
+    if(keyword.length<2){
+      $('#myModal').modal('show');     
+      return;
+    }else{
+      $("#searchFrm").submit();
+    }
+
+  }
+</script>
+  <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-hidden="true">
+	   <div class="modal-dialog">
+		  <div class="modal-content">
+			 <div class="modal-body">
+				<div id="modal_img" ></div>
+			 </div>
+		  </div>
+	   </div>
+	</div>
+  <div class="container" style="padding-left:0px;padding-right:0px">
+    
+    <div class="col-sm-8  col-md-8">
+      <ol class="breadcrumb">
+      当前位置：<a href='http://www.win10os.com/'>主页</a> > <a href='/win10jiqiao/'>Win10技巧</a> > 
+      </ol>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="art_title">
+            <h3>固态硬盘怎么看是否4k对齐 2种查看SSD是否4K对齐</h3>
+            <a href="http://www.win10os.com" title="http://www.win10os.com">http://www.win10os.com</a>&nbsp;<a href="http://www.win10os.com">win10系统</a>  发布时间：2016-09-13 18:48 来源：win10系统 浏览：<span id="count"style="font-size:14px;">加载中</span>次
+          </div>
+          <div class="art_body">
+            <div class="art_share"><div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare" style="width:650px;height:50px;padding-top:10px;" >
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more"></span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END --></div></div>
+<div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接，<a href="#" onclick="anchorClick()" style="font-size:20px;color:#fff;">去点赞</a></div>
+            <div id="829" class="art_content"><p>
+	了解SSD的朋友都知道，4K对齐是固态硬盘分区时非常重要的一项操作，如果SSD没有4K对齐，会造成跨区读写，不仅影响固态硬盘速度，还会影响SSD寿命。那么，固态硬盘怎么看是否4k对齐？很多朋友买回的新电脑内置了SSD或者升级SSD装系统后，如何检查SSD是否4K对齐呢？今天电脑百事网小编带来了2种简便的查看方法，一起来看看吧。</p>
+<p style="text-align: center;">
+	<img alt="固态硬盘怎么看是否4k对齐 2种查看SSD是否4K对齐方法" src="/uploads/allimg/160913/1SU42V0-0.jpg" /></p>
+<p>
+	方法一：不借助任何工具查看法</p>
+<p>
+	1、首先使用「Win + R」组合快捷键打开运行命令框，然后在打开后面键入「msinfo32」,并点击&ldquo;确定&rdquo;打开，如图所示。</p>
+<p style="text-align: center;">
+	<img alt="固态硬盘怎么看是否4k对齐 2种查看SSD是否4K对齐方法" src="/uploads/allimg/160913/1SU45329-1.jpg" /></p>
+<p>
+	2、打开系统信息窗口界面后，依次点击左侧的「组件」-「存储」-「磁盘」，然后在右侧查看&ldquo;分区起始偏移数值&rdquo;，如图所示。</p>
+<p style="text-align: center;">
+	<img src="/uploads/allimg/160913/1SU44957-2.jpg" /></p>
+<p>
+	查看SSD是否4K对齐方法</p>
+<p>
+	3、最后将右侧的2个「分区起始偏移数值」除以4096（下面以小编SSD笔记本数值为例），计算结果如下。</p>
+<p>
+	1048576&nbsp;&divide;&nbsp;4096 = 256</p>
+<p>
+	64426606592&nbsp;&divide;&nbsp;4096 = 15729152</p>
+<p>
+	如上图，小编SSD笔记本的2项分区起始偏移数值除以4096得出的都是整数，这说明SSD已经4K对齐，如果结果是非整数，后面带有小数点，则说明固态硬盘没有对齐。</p>
+<p>
+	这种查看SSD是否对齐的方法非常实用，尤其是对于一些电脑中没有安装相关SSD检测工具，又没有网络下载的朋友十分实用，借助电脑中的计算器或者手机计算器，去计算也非常简单。</p>
+<p>
+	方法二：借助工具查看</p>
+<p>
+	借助一些硬盘检测工具，如DiskGenius、AS SSD benchmark等查看磁盘4K对齐信息也非常简单，首先在装有SSD的电脑中下载一个硬盘检测工具，然后打开运行就可以查看了，如图所示。</p>
+<p style="text-align: center;">
+	<img alt="固态硬盘怎么看是否4k对齐 2种查看SSD是否4K对齐方法" src="/uploads/allimg/160913/1SU430F-3.jpg" /></p>
+<p>
+	使用工具查看SSD是否4K对齐方法</p>
+<p>
+	如果查看到固态硬盘没有对齐怎么办？这个也很好解决，无重新分区硬盘与装系统，也可以轻松进行4K对齐。详见教程：「<a href="http://www.pc841.com/article/20150422-45553.html" target="_blank">固态硬盘怎么4K对齐 3种固态硬盘4K对齐方法</a>」。</p>
+<p>
+	下一页为延伸阅读：固态硬盘4k对齐选2048还是4096。</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	4k对齐什么意思 固态硬盘4k对齐选2048还是4096</p>
+<p>
+	文章最后简单科普一下固态硬盘4K对齐是什么意思，在进行固态硬盘4K对齐操作的时候，是选择2048还是4096对齐。</p>
+<p style="text-align: center;">
+	<img alt="固态硬盘怎么看是否4k对齐 2种查看SSD是否4K对齐方法" src="/uploads/allimg/160913/1SU45L5-4.jpg" /></p>
+<p>
+	4K对齐是什么意思？</p>
+<p>
+	4k对齐是硬盘分区中的一个专业术语，4K对齐就是符合4K扇区定义格式化过的硬盘，并且按照4K扇区的规则写入数据。一般来说，在给固态硬盘进行分区的时候，一定要勾选上4K对齐，否则会影响到SSD固态硬盘的性能与寿命。</p>
+<p>
+	通俗的说，如果SSD不进行4K对齐，写入数据的写入点正好会介于两个4K扇区的之间，也就是说即使是写入最小量的数据，也会使用到两个4K扇区，这样会造成跨区读写，读写次数放大，从而影响磁盘性能。此外SSD的寿命也是大家比较关心的，经常跨区读写的SSD最终能用多久也可想而知了。</p>
+<p style="text-align: center;">
+	<img alt="固态硬盘怎么看是否4k对齐 2种查看SSD是否4K对齐方法" src="/uploads/allimg/160913/1SU4G23-5.jpg" /></p>
+<div>
+	<div id="_p46r8m5e5klnmi">
+		&nbsp;</div>
+</div>
+<p>
+	固态硬盘4k对齐选2048还是4096？</p>
+<p>
+	SSD中的4K对齐的4K指4096字节，其中1个扇区为512字节。</p>
+<p>
+	有的人提到的固态硬盘4K对齐中的2048是指2048个扇区，即512B*2048=1048576B=1024KB，即1M对齐，并满足4K对齐，该值只要是4096B的倍数就是4K对齐，理论上4K对齐只要是4096整数倍就可以，不过标准的一般都是选择4069。</p>
+</div>
+            <div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接</div>
+  	    <!-- 将此标记放在您希望显示like按钮的位置 -->          
+            <div class="art_like"><div class="bdlikebutton"></div></div>
+            <div style="text-align:center;font-size:20px;font-weight:bold;color:#ff0000">亲，如果能帮助到你,帮忙《打赏1-10元》给小编一口饭吃！</div>
+            <div style="text-align:center">
+			<img src="/templets/default/images/thanks.gif" width="160" height="160"/>
+			<img src="/templets/default/images/weixin.png" width="250" height="250"/>
+			<img src="/templets/default/images/thanks.gif" width="160" height="160"/>
+			</div>
+          </div>
+        </div>
+      </div>
+      <div class="pnum">
+        <div class="pages mypagelist">
+          <div></div>
+        </div>
+      </div>
+      <div class="pre_next">
+        <nav>
+          <ul class="pager">
+            <li class="previous">上一篇：<a href='/win10jiqiao/2016/0913/828.html'>如何开启隐藏的锁屏时间设置项？</a> </li>
+            <li class="next">下一篇：<a href='/win10jiqiao/2016/1009/833.html'>Win10技巧：如何为U盘、移动硬盘增加“写保护”？</a> </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="well"> 
+    		如果你有好的<a href="http://www.win10os.com/win10zixun" title="win10资讯">win10资讯</a>或者<a href="http://www.win10os.com/win10jiqiao" title="win10教程">win10教程</a>，以及<a href="http://www.win10os.com/win10xitong" title="win10">win10</a>相关的问题想要获得<a href="http://www.win10os.com/win10xiazai" title="win10系统下载">win10系统下载</a>的关注与报道。<br/>欢迎加入发送邮件到657025171#qq.com(#替换为@)。期待你的好消息！
+    	</div>  
+      <div class="row">
+        
+          <div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10jiqiao/2017/0915/964.html'><img src='/uploads/allimg/170915/1-1F915134A8-lp.png' border='0' width='120' height='120' alt='win10自带移动热点这么好用，随身wifi可以扔了！'></a>
+              <div class="caption">
+                <p><a href='/win10jiqiao/2017/0915/964.html'>win10自带移动热点这么</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10jiqiao/2017/0209/948.html'><img src='/uploads/allimg/161228/15-16122Q11415-lp.png' border='0' width='120' height='120' alt='Win10计算器如何打开和使用'></a>
+              <div class="caption">
+                <p><a href='/win10jiqiao/2017/0209/948.html'>Win10计算器如何打开和</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10jiqiao/2017/0209/947.html'><img src='/uploads/allimg/161228/15-16122Q05321-50-lp.jpg' border='0' width='120' height='120' alt='Win10系统音量无法调节怎么办'></a>
+              <div class="caption">
+                <p><a href='/win10jiqiao/2017/0209/947.html'>Win10系统音量无法调节</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10jiqiao/2017/0209/946.html'><img src='/uploads/allimg/170101/15-1F101162U7-lp.png' border='0' width='120' height='120' alt='Win10系统设置默认输入法的方法'></a>
+              <div class="caption">
+                <p><a href='/win10jiqiao/2017/0209/946.html'>Win10系统设置默认输入</a></p>              
+                
+              </div>
+            </div>
+          </div>
+
+        
+      </div>
+    </div>
+    <!--右侧部分-->
+    <div class="col-sm-4 col-md-4">
+      <script src='/plus/ad_js.php?aid=12' language='javascript'></script>
+      <div class="panel panel-custom panel-custom-right">
+        <div class="panel-heading">最新文章>>></div>
+        <div class="panel-body">
+          <ul class="all_list">
+            <li><a href="/win10jiqiao/2017/0915/964.html" >win10自带移动热点这么好用，随身wifi可以扔了！</a><span>09.15</span></li>
+<li><a href="/win10jiqiao/2017/0809/963.html" >利用Win10通知巧妙实现UWP桌面歌词</a><span>08.09</span></li>
+<li><a href="/win10jiqiao/2017/0622/956.html" >Win10秋季创意者更新16215如何解决输入法、QQ占用资源问题</a><span>06.22</span></li>
+<li><a href="/win10jiqiao/2017/0209/948.html" >Win10计算器如何打开和使用</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0209/947.html" >Win10系统音量无法调节怎么办</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0209/946.html" >Win10系统设置默认输入法的方法</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0209/944.html" >Win10系统如何用大图标查看缩略图</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0209/945.html" >Win10系统如何关闭Microsoft产品更新</a><span>02.09</span></li>
+<li><a href="/win10jiqiao/2017/0206/943.html" >Win10系统让QQ显示在通知栏的方法</a><span>02.06</span></li>
+<li><a href="/win10jiqiao/2017/0206/942.html" >Win10查看文件属性的快捷方法</a><span>02.06</span></li>
+ 
+          </ul>
+        </div>
+      </div>  
+      <script src='/plus/ad_js.php?aid=14' language='javascript'></script>
+      <div id="scr_cont" class="panel panel-custom panel-custom-right">
+        <div class="panel-heading">相关热门>>></div>
+        <div class="panel-body">
+          <ul class="all_list">
+            <li><a href="/win10jiqiao/2014/1119/178.html" >怎样在win10里面手动设置开机启动</a><span>4475</span></li>
+<li><a href="/win10jiqiao/2014/1016/29.html" >电脑如何进入BIOS设置</a><span>3532</span></li>
+<li><a href="/win10jiqiao/2014/1019/39.html" >Win10预览版水印如何去除，Window</a><span>3285</span></li>
+<li><a href="/win10jiqiao/2015/0126/475.html" >win10 9926开始键打不开，不管用怎</a><span>3062</span></li>
+<li><a href="/win10jiqiao/2015/0923/747.html" > Win10新建磁盘分区图文教程 Win1</a><span>2961</span></li>
+<li><a href="/win10jiqiao/2015/0128/489.html" >win10 9926激活工具下载，win10 9926激</a><span>2479</span></li>
+<li><a href="/win10jiqiao/2015/0126/476.html" >win10怎么开启小娜功能,教你如何开</a><span>2110</span></li>
+<li><a href="/win10jiqiao/2014/1016/28.html" >如何制作Windows10系统U盘启动盘</a><span>1907</span></li>
+<li><a href="/win10jiqiao/2015/0608/642.html" >Win10系统下鼠标的常见故障及解决</a><span>1882</span></li>
+<li><a href="/win10jiqiao/2014/1012/10.html" >Win10系统快速关机方法大全【图文</a><span>1800</span></li>
+ 
+          </ul>
+          </ul>
+        </div>
+      </div>
+      <script src='/plus/ad_js.php?aid=15' language='javascript'></script>
+    </div>
+    
+  </div>
+  <nav class="navbar navbar-default navbar-fixed-bottom navbar-bottom-custom">
+    <div class="container">
+      <span class="pull-right navbar-text" id="font_smaller" onclick="changeFont('smaller')">A-</span>&nbsp;&nbsp;<span class="pull-right navbar-text" id="font_bigger" onclick="changeFont('bigger')">A+</span>
+    </div>
+  </nav>
+  <div class="footer">
+	<div class="foot">
+		<ul>
+			<li>
+				<a href="/win10zixun" title="Win10资讯,win10最新资讯,win10最新消息" target="_blank">Win10资讯</a>
+				<a href="/win10xiazai" title="Win10下载,win10下载地址,win10系统下载,win10如何下载"  target="_blank">Win10下载</a>
+				<a href="/win10ruanjian" title="Win10软件,win10小工具" target="_blank">Win10软件</a>
+				<a href="/win10zhuti" title="Win10主题,win10系统主题,win10主题下载" target="_blank">Win10主题</a>
+				<a href="/win10bizhi" title="Win10壁纸,win10系统壁纸,win10壁纸下载" target="_blank">Win10壁纸</a>
+				<a href="/win10jiqiao"  title="Win10技巧,win10系统技巧,win10" target="_blank">Win10技巧</a>
+				<a href="/win10youhua" title="Win10优化,win10系统优化" target="_blank">Win10优化</a>
+				<a href="/win10jihuo" title="Win10激活,win10怎么激活,win10如何激活,win10激活工具,win10激活密钥" target="_blank">Win10激活</a>
+				<a href="/win10xitong" title="Win10系统,Win10系统教程" target="_blank">Win10系统</a>
+			</li>
+		</ul>
+		<ul>
+			<li><a href="/aboutus.html" target="_blank">关于我们</a> | <a href="/contactus.html" target="_blank">联系我们</a> | <a href="/copyright.html" target="_blank">版权声明</a> | <a href="/sitemap.xml" target="_blank">网站地图</a></li>
+                        <li>本站发布的系统与软件仅为个人学习测试使用，请在下载后24小时内删 除，不得用于任何商业用途，否则后果自负。</li>
+                        <li>Copyright © 2014 - 2016 win10os.com All Rights Reserved.</li>
+                        <li>win10os 版权所有 京ICP备11048740号</li>
+		</ul>
+	</div>
+</div>
+<!-- win10os.com Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?be73a9ebf08a1a67fa05d4ab1764622e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+ 
+  <span id="count_data" style="display:none">
+    <script src="/plus/count.php?view=yes&aid=829&mid=1" type='text/javascript' language="javascript">
+    </script>
+  </span>
+  <script type="text/javascript">
+    document.getElementById('count').innerHTML = document.getElementById('count_data').innerHTML;
+  </script>
+    <script>
+      var img = $(".art_content p").find("img")
+      $.each(img,function(index,el){
+        el.style.width='100%';
+      });
+    </script>
+
+  <!-- 将此代码放在适当的位置，建议在body结束前 -->
+  <script id="bdlike_shell"></script>
+  <script>
+
+  var bdShare_config = {
+
+  	"type":"large",
+
+  	"color":"blue",
+
+  	"likeText":"内容很精彩",
+
+  	"likedText":"您已顶过，谢谢！"
+
+  };
+
+  document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + Math.ceil(new Date()/3600000);
+
+  </script>
+  <script src="/templets/default/js/article.js"></script>
+</body>
+</html>

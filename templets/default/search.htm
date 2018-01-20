@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>内容搜索页_{dede:global.cfg_webname/}</title>
+<link href="{dede:global.cfg_templets_skin/}/style/home.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+{dede:include filename="head.htm"/}
+<div class="zwqu">
+<div class="dqian"><ul><li>当前位置：{dede:field name='position'/}</li></ul>
+</div>
+<div class="list">
+{dede:list pagesize='12'titlelen=80}
+<div class="listye">
+<div class="listye_l">
+<img src="[field:litpic/]" alt="[field:fulltitle/]" width="165" height="120" />
+</div>
+<div class="listye_r">
+<a href='[field:arcurl/]'>[field:title/]</a><br /><p>[field:description/]...</p>
+</div>
+</div>
+{/dede:list}
+
+<ul class="jogger"><li>{dede:pagelist listsize='3' listitem='index pre pageno next end option'/}<li></ul>
+</div>
+<div class="listy">
+<!--<script src='/plus/ad_js.php?aid=16' language='javascript'></script>-->
+<ul class="neituzs">
+{dede:arclist row=4 titlelen=20 flag ='p' orderby='pubdate' }
+  <li>[field:imglink/]<br />[field:textlink/]</li>
+{/dede:arclist}
+</ul>
+</div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

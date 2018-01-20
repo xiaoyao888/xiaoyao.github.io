@@ -1,0 +1,26 @@
+﻿.head_t{width:100%;height:40px;line-height:38px;background:#f1f1f1}
+.head_t div{width:1100px;margin:0 auto;}
+.head_t div a{color:red;float:right;margin-right:10px;}
+.head_top{width:100%;min-width:1100px;margin:0px;padding:0px;}
+.home{width:1100px;height:95px;margin-left:auto;margin-right:auto;margin-bottom:10px;}
+.logo{float:left;width:230px;height:80px;margin-top:15px;margin-right:5px;}
+.logo img{float:left;width:233px;height:90px;margin-right:5px;}
+.top_ad{width: 468px;float: left;margin-top: 27px;}
+.gg{float:right;width:360px;height:55px;margin-right:15px;margin-top:40px;}
+.search{float:left;width:380px;height:40px;color:#333;}
+.search_txt{float:left;width:280px;height:32px;border:1px solid #d8d8d8;color:#333;font-size:14px;margin-top:0px;margin-right:5px;line-height:32px;}
+.search_btn{height:36px;background-color:#0E9600;}
+.dh_parent{width:100%;min-width:1100px;margin:0px;padding:0px;background:#2186D3;}
+.dh{width:1100px;height:40px;text-align:center;margin-left:auto;margin-right:auto;background:#2186D3;}
+.dhz{list-style-type: none;}
+.dhz li{float:left;font-size:16px;text-decoration: none;margin-right:10px;}
+.dhz li a{float:left;width:100px;text-decoration: none;color:#FFF;font-family: "微软雅黑";line-height:40px;}
+.dhz li a:hover{text-decoration:none;color:#fff;font-family: "微软雅黑";line-height:40px;background:#FF6A17;}
+.dhsz li{float:left;font-size:16px;text-decoration: none;margin-right:10px;}
+.dhsz li a{float:left;width:100px;text-decoration: none;color:#fff;font-family: "微软雅黑";line-height:40px;} 
+    
+.footer{width:100%;min-width:1100px;clear:both;background:#2186D3;margin:0px;padding:0px;margin-top:20px;}
+.foot{margin:0px auto;padding-top:10px;width:1100px;height:150px;}
+.foot li{line-height:20px;text-align:center;font-size:12px;color:#FFFFFF;}
+.foot li a{color:#FFFFFF;text-decoration: none;text-align:center;}
+.foot li a:hover{color:#ff3300;}

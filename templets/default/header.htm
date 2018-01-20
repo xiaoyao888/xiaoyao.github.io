@@ -1,0 +1,124 @@
+    <nav class="navbar navbar-default">
+
+      <div class="container" style="margin-top:0px;">
+
+        <div class="row" style="line-height:45px;">
+
+          欢迎光临，看最新win10资讯，下载win10系统就上www.win10os.com！<span class="hidden-xs"><a href="javascript:void(0)" class="pull-right" onclick="alert('按Ctrl+D收藏本站')" title="win10系统">收藏本站</a></span>
+
+        </div>
+
+      </div>      
+
+    </nav>
+
+    <div class="container" style="margin-top:0px;">
+      <div class="row" >
+
+        <div class="col-sm-8 col-md-8">
+
+            <a href="/index.html"><img src="/images/logo.png" alt="Windows10系统下载,Win10激活,Win10教程" width="196" height="64"/></a>
+
+        </div>
+        <div class="col-sm-4 col-md-4">
+        <div style="height:45px;">
+        <form  method="post" id="searchFrm" role="search" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+            <div class="input-group">
+                <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Search">
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" onclick="searchKey()">搜索</button>
+                </span>
+            </div><!-- /input-group -->
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-custom">
+
+      <div class="container">
+
+
+<!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header navbar-header-custom">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" title="Win10,win10系统,Win10教程" href="/">首页</a>
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav nav-custom">
+			<li><a href="/win10zixun" title="Win10资讯,win10最新资讯" target="_blank">Win10资讯</a></li>
+			<li><a href="/win10xiazai" title="Win10下载,win10系统下载,win10正式版下载" target="_blank">Win10下载</a></li>
+			<li><a href="/win10ruanjian" title="Win10软件,win10小工具" target="_blank">Win10软件</a></li>
+			<li><a href="/win10bizhi" title="Win10壁纸,win10系统壁纸,win10壁纸下载" target="_blank">Win10壁纸</a></li>
+			<li><a href="/win10jiqiao" title="Win10技巧,win10系统技巧,win10" target="_blank">Win10技巧</a></li>
+			<li><a href="/win10youhua" title="Win10优化,win10系统优化" target="_blank">Win10优化</a></li>
+			<li><a href="/win10jihuo" title="Win10激活,win10怎么激活,win10如何激活,win10激活工具" target="_blank">Win10激活</a></li>
+			<li><a href="/win10xitong" title="Win10系统,Win10系统教程,win10正式版激活" target="_blank">Win10系统</a></li>
+		</ul>
+          
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-fluid -->
+
+    </nav>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+       <div class="modal-dialog">
+
+          <div class="modal-content">
+
+             <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" 
+
+                   aria-hidden="true">×
+
+                </button>
+
+                <h4 class="modal-title" id="myModalLabel">
+
+                   搜索提示
+
+                </h4>
+
+             </div>
+
+             <div class="modal-body">
+
+                <div style="height:60px;line-height:60px;">
+
+                  关键字不能小于2个字！
+
+                </div>
+
+             </div>
+
+          </div><!-- /.modal-content -->
+
+       </div><!-- /.modal-dialog -->
+
+    </div><!-- /.modal -->
+<script type="text/javascript">
+  function searchKey(){
+    var keyword = $("#keyword").val();
+    if(keyword.length<2){
+      $('#myModal').modal('show');     
+      return;
+    }else{
+      $("#searchFrm").submit();
+    }
+
+  }
+</script>

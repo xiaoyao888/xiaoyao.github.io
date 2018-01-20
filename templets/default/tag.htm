@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>TAG标签_{dede:global.cfg_webname/}</title>
+<link href="{dede:global.cfg_templets_skin/}/style/home.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+{dede:include filename="head.htm"/}
+<div class="zwqu">
+<div class="dqian"><ul><li>当前位置：{dede:field name='position'/}</li></ul>
+</div>
+<div class="list">
+<ul class="tagbt"><li>最新TAG标签</li></ul>
+<ul class="tagzw">
+{dede:tag row='60' sort='new'}
+<li><a href='[field:link/]' class='tagc[field:highlight /]'>[field:tag /]</a></li>
+{/dede:tag}
+</ul>
+<ul class="tagbt"><li>当月热门TAG标签</li></ul>
+<ul class="tagzw">
+{dede:tag row='60' sort='month'}
+<li><a href='[field:link/]' class='tagc[field:highlight /]'>[field:tag /]</a></li>
+{/dede:tag}
+
+</ul>
+<ul class="tagbt"><li>随机TAG标签</li></ul>
+<ul class="tagzw">
+{dede:tag row='60' sort='rand'}
+<li><a href='[field:link/]' class='tagc[field:highlight /]'>[field:tag /]</a></li>
+{/dede:tag}
+
+</ul>
+</div>
+<div class="listy">
+<ul class="soso">
+<form class="sou" method="post" name="search" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+<input type="text" id="kuang" value="" name="keyword"class="swap_value" /> 
+<input type="image" src="{dede:global.cfg_templets_skin/}/images/so.gif" width="60" height="35" class="go" alt="Search" title="search">
+</form>
+<ul class="neituzs">
+{dede:arclist row=4 titlelen=20 flag ='p' orderby='pubdate' }
+  <li>[field:imglink/]<br />[field:textlink/]</li>
+{/dede:arclist}
+</ul>
+<ul class="xguanrm">相关热门>>></ul>
+<ul class="renei">
+{dede:arclist row=9 titlelen=20 orderby='click' }
+<li><span>[field:click/]</span><a href='[field:arcurl/]'>[field:title/]</a> </li>
+{/dede:arclist}
+</ul>
+</div>
+{dede:include filename="footer.htm"/}
+</div>
+</body>
+</html>

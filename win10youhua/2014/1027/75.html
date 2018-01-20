@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Win10如何加快桌面应用的启动速度 Win10快速启动教_win10系统下载_win10激活工具_win10os</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Win10,如何,加快,桌面,应,用的,启动,速度,快速," />
+  <meta name="description" content="自从Windows Vista开始，微软就通过延迟应用加载的方式来加快开机速度，这个特性被称作启动延迟。而在Win10技术预览版中，当操作系统启动之后，它将会拖延启动文件夹中的程序的加载，特别是启用了Windows10中的开始屏幕时，这个问题尤其明显。 微软解释称，" />
+  	<!-- Bootstrap core CSS -->
+	<link href="/templets/default/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap theme -->
+	<link href="/templets/default/css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="/templets/default/css/theme.css" rel="stylesheet">
+	<script src="/templets/default/js/jquery-2.1.3.js"></script>
+	<script src="/templets/default/js/bootstrap.min.js"></script>
+
+	<link href="/templets/default/css/main.css" rel="stylesheet">
+	<script src="/templets/default/js/main.js"></script>
+
+
+<SCRIPT language="javascript" src="/templets/default/js/gotop-plugin.js"></SCRIPT>
+</head>
+<body>
+      <nav class="navbar navbar-default">
+
+      <div class="container" style="margin-top:0px;">
+
+        <div class="row" style="line-height:45px;">
+
+          欢迎光临，看最新win10资讯，下载win10系统就上www.win10os.com！<span class="hidden-xs"><a href="javascript:void(0)" class="pull-right" onclick="alert('按Ctrl+D收藏本站')" title="win10系统">收藏本站</a></span>
+
+        </div>
+
+      </div>      
+
+    </nav>
+
+    <div class="container" style="margin-top:0px;">
+      <div class="row" >
+
+        <div class="col-sm-8 col-md-8">
+
+            <a href="/index.html"><img src="/images/logo.png" alt="Windows10系统下载,Win10激活,Win10教程" width="196" height="64"/></a>
+
+        </div>
+        <div class="col-sm-4 col-md-4">
+        <div style="height:45px;">
+        <form  method="post" id="searchFrm" role="search" action="/plus/search.php">
+            <div class="input-group">
+                <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Search">
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" onclick="searchKey()">搜索</button>
+                </span>
+            </div><!-- /input-group -->
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-custom">
+
+      <div class="container">
+
+
+<!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header navbar-header-custom">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" title="Win10,win10系统,Win10教程" href="/">首页</a>
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav nav-custom">
+			<li><a href="/win10zixun" title="Win10资讯,win10最新资讯" target="_blank">Win10资讯</a></li>
+			<li><a href="/win10xiazai" title="Win10下载,win10系统下载,win10正式版下载" target="_blank">Win10下载</a></li>
+			<li><a href="/win10ruanjian" title="Win10软件,win10小工具" target="_blank">Win10软件</a></li>
+			<li><a href="/win10bizhi" title="Win10壁纸,win10系统壁纸,win10壁纸下载" target="_blank">Win10壁纸</a></li>
+			<li><a href="/win10jiqiao" title="Win10技巧,win10系统技巧,win10" target="_blank">Win10技巧</a></li>
+			<li><a href="/win10youhua" title="Win10优化,win10系统优化" target="_blank">Win10优化</a></li>
+			<li><a href="/win10jihuo" title="Win10激活,win10怎么激活,win10如何激活,win10激活工具" target="_blank">Win10激活</a></li>
+			<li><a href="/win10xitong" title="Win10系统,Win10系统教程,win10正式版激活" target="_blank">Win10系统</a></li>
+		</ul>
+          
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-fluid -->
+
+    </nav>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+       <div class="modal-dialog">
+
+          <div class="modal-content">
+
+             <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" 
+
+                   aria-hidden="true">×
+
+                </button>
+
+                <h4 class="modal-title" id="myModalLabel">
+
+                   搜索提示
+
+                </h4>
+
+             </div>
+
+             <div class="modal-body">
+
+                <div style="height:60px;line-height:60px;">
+
+                  关键字不能小于2个字！
+
+                </div>
+
+             </div>
+
+          </div><!-- /.modal-content -->
+
+       </div><!-- /.modal-dialog -->
+
+    </div><!-- /.modal -->
+<script type="text/javascript">
+  function searchKey(){
+    var keyword = $("#keyword").val();
+    if(keyword.length<2){
+      $('#myModal').modal('show');     
+      return;
+    }else{
+      $("#searchFrm").submit();
+    }
+
+  }
+</script>
+  <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-hidden="true">
+	   <div class="modal-dialog">
+		  <div class="modal-content">
+			 <div class="modal-body">
+				<div id="modal_img" ></div>
+			 </div>
+		  </div>
+	   </div>
+	</div>
+  <div class="container" style="padding-left:0px;padding-right:0px">
+    
+    <div class="col-sm-8  col-md-8">
+      <ol class="breadcrumb">
+      当前位置：<a href='http://www.win10os.com/'>主页</a> > <a href='/win10youhua/'>Win10优化</a> > 
+      </ol>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="art_title">
+            <h3>Win10如何加快桌面应用的启动速度 Win10快速启动教</h3>
+            <a href="http://www.win10os.com" title="http://www.win10os.com">http://www.win10os.com</a>&nbsp;<a href="http://www.win10os.com">win10系统</a>  发布时间：2014-10-27 11:53 来源：win10系统 浏览：<span id="count"style="font-size:14px;">加载中</span>次
+          </div>
+          <div class="art_body">
+            <div class="art_share"><div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare" style="width:650px;height:50px;padding-top:10px;" >
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more"></span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END --></div></div>
+<div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接，<a href="#" onclick="anchorClick()" style="font-size:20px;color:#fff;">去点赞</a></div>
+            <div id="75" class="art_content"><p>
+	自从Windows Vista开始，微软就通过延迟应用加载的方式来加快开机速度，这个特性被称作&ldquo;启动延迟&rdquo;。而在Win10技术预览版中，当操作系统启动之后，它将会拖延&ldquo;启动&rdquo;文件夹中的程序的加载，特别是启用了Windows10中的开始屏幕时，这个问题尤其明显。</p>
+<div style="text-align: center;">
+	<img alt="Win10如何加快桌面应用的启动速度 Win10快速启动教程" border="0" data-bd-imgshare-binded="1" src="/uploads/allimg/141027/11561119D-0.jpg" /></div>
+<div>
+	&nbsp;</div>
+<div>
+	微软解释称，这样设定是因为考虑到之前Win8是一款主打触摸操作的系统，用户首先需要的是开始屏幕，不需要在第一时间进入桌面环境，因此这样的设定可以让用户感觉到更快的启动速度。不过，现在Win10预览版提供了完全桌面化、窗口化的操作方式，下面一起来看看如何取消这种启动延迟。</div>
+<p>
+	第一步、首先打开注册表编辑器。可以通过Windows徽标键+R来打开运行窗口，输入&ldquo;regedit&rdquo;然后按回车键来启动。也可以直接在Win10预览版的开始菜单中进行搜索。</p>
+<div style="text-align: center;">
+	<img alt="Win10如何加快桌面应用的启动速度 Win10快速启动教程" border="0" data-bd-imgshare-binded="1" src="/uploads/allimg/141027/1156111538-1.jpg" /></div>
+<div style="text-align: center;">
+	<img alt="Win10如何加快桌面应用的启动速度 Win10快速启动教程" border="0" data-bd-imgshare-binded="1" src="/uploads/allimg/141027/1156112637-2.jpg" /></div>
+<p>
+	第二步、依次在注册表左侧中展开如下路径：HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize，大家很有可能找不到最后的Serialize项，没关系，我们可以在Explorer下面新建该项。直接在Explorer项上点击鼠标右键，然后选择&ldquo;新建&rdquo;&mdash;&mdash;&ldquo;项&rdquo;，然后将其命名为&ldquo;Serialize&rdquo;即可。</p>
+<div style="text-align: center;">
+	<img alt="Win10如何加快桌面应用的启动速度 Win10快速启动教程" border="0" data-bd-imgshare-binded="1" src="/uploads/allimg/141027/115611A96-3.jpg" /></div>
+<p>
+	第三步、在Serialize项右侧窗口中，通过点击鼠标右键，新建一个DWORD值，名称为&rdquo;StartupDelayInMSec&ldquo;（不包含引号），然后通过双击该键值将其改为&rdquo;0&ldquo;（不包含引号）后，确定即可。具体效果如下图所示：</p>
+<div style="text-align: center;">
+	<img alt="Win10如何加快桌面应用的启动速度 Win10快速启动教程" border="0" data-bd-imgshare-binded="1" src="/uploads/allimg/141027/115611B27-4.jpg" /></div>
+<div>
+	完成上面步骤后，重启计算机即可应用设置。如果你的<a href="http://www.win10os.com/win10xiazai/2014/1012/6.html">Win10预览版</a>中的&rdquo;启动&ldquo;文件夹内有大量的启动项的话，你将会看到他们更快的启动，虽然不能完全彻底的消除这种延迟，但是提升还是很明显的。当然如果你启动文件夹内没有启动程序的话，设置该项后你可能看不到什么变化。</div>
+<p>
+	推荐阅读：<a href="http://www.win10os.com/win10xiazai/2014/1012/6.html">Win10预览版下载</a>&nbsp;http://www.win10os.com/win10xiazai/2014/1012/6.html</p>
+</div>
+            <div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接</div>
+  	    <!-- 将此标记放在您希望显示like按钮的位置 -->          
+            <div class="art_like"><div class="bdlikebutton"></div></div>
+            <div style="text-align:center;font-size:20px;font-weight:bold;color:#ff0000">亲，如果能帮助到你,帮忙《打赏1-10元》给小编一口饭吃！</div>
+            <div style="text-align:center">
+			<img src="/templets/default/images/thanks.gif" width="160" height="160"/>
+			<img src="/templets/default/images/weixin.png" width="250" height="250"/>
+			<img src="/templets/default/images/thanks.gif" width="160" height="160"/>
+			</div>
+          </div>
+        </div>
+      </div>
+      <div class="pnum">
+        <div class="pages mypagelist">
+          <div></div>
+        </div>
+      </div>
+      <div class="pre_next">
+        <nav>
+          <ul class="pager">
+            <li class="previous">上一篇：<a href='/win10youhua/2014/1025/69.html'>这么多设备，你会在哪里安装Win10预览版9860？</a> </li>
+            <li class="next">下一篇：<a href='/win10youhua/2014/1028/77.html'>win10预览版系统电脑桌面右下角的时钟图标不见了</a> </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="well"> 
+    		如果你有好的<a href="http://www.win10os.com/win10zixun" title="win10资讯">win10资讯</a>或者<a href="http://www.win10os.com/win10jiqiao" title="win10教程">win10教程</a>，以及<a href="http://www.win10os.com/win10xitong" title="win10">win10</a>相关的问题想要获得<a href="http://www.win10os.com/win10xiazai" title="win10系统下载">win10系统下载</a>的关注与报道。<br/>欢迎加入发送邮件到657025171#qq.com(#替换为@)。期待你的好消息！
+    	</div>  
+      <div class="row">
+        
+          <div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10youhua/2017/0122/919.html'><img src='/uploads/allimg/170122/10295AX8-0-lp.png' border='0' width='120' height='120' alt='win10如何开启固态硬盘TRIM功能来提升SSD运行效率'></a>
+              <div class="caption">
+                <p><a href='/win10youhua/2017/0122/919.html'>win10如何开启固态硬盘</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10youhua/2016/1215/874.html'><img src='/uploads/allimg/161215/144P644F-0-lp.png' border='0' width='120' height='120' alt='Win10如何优化？Win10安装后必做的优化,解决硬盘100%占用高'></a>
+              <div class="caption">
+                <p><a href='/win10youhua/2016/1215/874.html'>Win10如何优化？Win10安</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10youhua/2016/0226/811.html'><img src='/uploads/allimg/160226/0922443227-0-lp.jpg' border='0' width='120' height='120' alt='我的Win10为何没有快速启动？'></a>
+              <div class="caption">
+                <p><a href='/win10youhua/2016/0226/811.html'>我的Win10为何没有快速</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10youhua/2015/0415/605.html'><img src='/uploads/allimg/150415/1K92I106-0-lp.jpg' border='0' width='120' height='120' alt='如何禁止Win10系统自动更新预览版本'></a>
+              <div class="caption">
+                <p><a href='/win10youhua/2015/0415/605.html'>如何禁止Win10系统自动</a></p>              
+                
+              </div>
+            </div>
+          </div>
+
+        
+      </div>
+    </div>
+    <!--右侧部分-->
+    <div class="col-sm-4 col-md-4">
+      <script src='/plus/ad_js.php?aid=12' language='javascript'></script>
+      <div class="panel panel-custom panel-custom-right">
+        <div class="panel-heading">最新文章>>></div>
+        <div class="panel-body">
+          <ul class="all_list">
+            <li><a href="/win10youhua/2017/0122/919.html" >win10如何开启固态硬盘TRIM功能来提升SSD运行效率</a><span>01.22</span></li>
+<li><a href="/win10youhua/2016/1215/874.html" >Win10如何优化？Win10安装后必做的优化,解决硬盘100%占用高</a><span>12.15</span></li>
+<li><a href="/win10youhua/2016/1215/873.html" >Win10开机速度太慢怎么办？解决Win10开机慢的方法</a><span>12.15</span></li>
+<li><a href="/win10youhua/2016/0226/811.html" >我的Win10为何没有快速启动？</a><span>02.26</span></li>
+<li><a href="/win10youhua/2015/0415/605.html" >如何禁止Win10系统自动更新预览版本</a><span>04.15</span></li>
+<li><a href="/win10youhua/2015/0415/604.html" >Win10手动清除IE11浏览器浏览历史记录</a><span>04.15</span></li>
+<li><a href="/win10youhua/2015/0415/603.html" >Win10系统下给计算机添加描述以区分用于某种目的</a><span>04.15</span></li>
+<li><a href="/win10youhua/2015/0415/602.html" >win10远程控制其他电脑时怎么设置自定义分辨率？</a><span>04.15</span></li>
+<li><a href="/win10youhua/2015/0415/601.html" >Win10系统怎么新建VPN网络？Win10连接VPN网络的方法</a><span>04.15</span></li>
+<li><a href="/win10youhua/2014/1231/399.html" >Win10通过修改注册表的方法来提高桌面图标刷新速</a><span>12.31</span></li>
+ 
+          </ul>
+        </div>
+      </div>  
+      <script src='/plus/ad_js.php?aid=14' language='javascript'></script>
+      <div id="scr_cont" class="panel panel-custom panel-custom-right">
+        <div class="panel-heading">相关热门>>></div>
+        <div class="panel-body">
+          <ul class="all_list">
+            <li><a href="/win10youhua/2015/0415/605.html" >如何禁止Win10系统自动更新预览版</a><span>1517</span></li>
+<li><a href="/win10youhua/2014/1206/277.html" >如何打开Win10系统配置对系统进行</a><span>1483</span></li>
+<li><a href="/win10youhua/2014/1202/235.html" >Win10调整虚拟内存以提高电脑运行</a><span>1405</span></li>
+<li><a href="/win10youhua/2014/1205/253.html" >Win10系统下C盘空间逐渐减少的原因</a><span>1244</span></li>
+<li><a href="/win10youhua/2014/1231/399.html" >Win10通过修改注册表的方法来提高</a><span>1176</span></li>
+<li><a href="/win10youhua/2015/0415/602.html" >win10远程控制其他电脑时怎么设置</a><span>1094</span></li>
+<li><a href="/win10youhua/2014/1101/105.html" >Win8.1和Win10双系统开机引导解决方</a><span>844</span></li>
+<li><a href="/win10youhua/2014/1102/111.html" >Win10 9860 CPU占用高怎么办,Win10cpu占</a><span>841</span></li>
+<li><a href="/win10youhua/2014/1016/24.html" >Win10全新命令提示符新功能解析</a><span>744</span></li>
+<li><a href="/win10youhua/2014/1104/119.html" >Win10另类小技巧五枚？win10系统用</a><span>723</span></li>
+ 
+          </ul>
+          </ul>
+        </div>
+      </div>
+      <script src='/plus/ad_js.php?aid=15' language='javascript'></script>
+    </div>
+    
+  </div>
+  <nav class="navbar navbar-default navbar-fixed-bottom navbar-bottom-custom">
+    <div class="container">
+      <span class="pull-right navbar-text" id="font_smaller" onclick="changeFont('smaller')">A-</span>&nbsp;&nbsp;<span class="pull-right navbar-text" id="font_bigger" onclick="changeFont('bigger')">A+</span>
+    </div>
+  </nav>
+  <div class="footer">
+	<div class="foot">
+		<ul>
+			<li>
+				<a href="/win10zixun" title="Win10资讯,win10最新资讯,win10最新消息" target="_blank">Win10资讯</a>
+				<a href="/win10xiazai" title="Win10下载,win10下载地址,win10系统下载,win10如何下载"  target="_blank">Win10下载</a>
+				<a href="/win10ruanjian" title="Win10软件,win10小工具" target="_blank">Win10软件</a>
+				<a href="/win10zhuti" title="Win10主题,win10系统主题,win10主题下载" target="_blank">Win10主题</a>
+				<a href="/win10bizhi" title="Win10壁纸,win10系统壁纸,win10壁纸下载" target="_blank">Win10壁纸</a>
+				<a href="/win10jiqiao"  title="Win10技巧,win10系统技巧,win10" target="_blank">Win10技巧</a>
+				<a href="/win10youhua" title="Win10优化,win10系统优化" target="_blank">Win10优化</a>
+				<a href="/win10jihuo" title="Win10激活,win10怎么激活,win10如何激活,win10激活工具,win10激活密钥" target="_blank">Win10激活</a>
+				<a href="/win10xitong" title="Win10系统,Win10系统教程" target="_blank">Win10系统</a>
+			</li>
+		</ul>
+		<ul>
+			<li><a href="/aboutus.html" target="_blank">关于我们</a> | <a href="/contactus.html" target="_blank">联系我们</a> | <a href="/copyright.html" target="_blank">版权声明</a> | <a href="/sitemap.xml" target="_blank">网站地图</a></li>
+                        <li>本站发布的系统与软件仅为个人学习测试使用，请在下载后24小时内删 除，不得用于任何商业用途，否则后果自负。</li>
+                        <li>Copyright © 2014 - 2016 win10os.com All Rights Reserved.</li>
+                        <li>win10os 版权所有 京ICP备11048740号</li>
+		</ul>
+	</div>
+</div>
+<!-- win10os.com Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?be73a9ebf08a1a67fa05d4ab1764622e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+ 
+  <span id="count_data" style="display:none">
+    <script src="/plus/count.php?view=yes&aid=75&mid=3" type='text/javascript' language="javascript">
+    </script>
+  </span>
+  <script type="text/javascript">
+    document.getElementById('count').innerHTML = document.getElementById('count_data').innerHTML;
+  </script>
+    <script>
+      var img = $(".art_content p").find("img")
+      $.each(img,function(index,el){
+        el.style.width='100%';
+      });
+    </script>
+
+  <!-- 将此代码放在适当的位置，建议在body结束前 -->
+  <script id="bdlike_shell"></script>
+  <script>
+
+  var bdShare_config = {
+
+  	"type":"large",
+
+  	"color":"blue",
+
+  	"likeText":"内容很精彩",
+
+  	"likedText":"您已顶过，谢谢！"
+
+  };
+
+  document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + Math.ceil(new Date()/3600000);
+
+  </script>
+  <script src="/templets/default/js/article.js"></script>
+</body>
+</html>

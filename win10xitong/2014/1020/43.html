@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Win7用户也要升级么？Win10硬件性能测试_win10系统下载_win10激活工具_win10os</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Win7,用户,也要,升级,么,Win10,硬件,性能,测试" />
+  <meta name="description" content="转眼间Windows7发布已经5年（09年10月22日发布），对于目前操作系统全面化、触控化的需求已经力不从心。微软于是在12年底又推出了全新概念的Windows 8，但用户的实际反馈并不尽如人意" />
+  	<!-- Bootstrap core CSS -->
+	<link href="/templets/default/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap theme -->
+	<link href="/templets/default/css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="/templets/default/css/theme.css" rel="stylesheet">
+	<script src="/templets/default/js/jquery-2.1.3.js"></script>
+	<script src="/templets/default/js/bootstrap.min.js"></script>
+
+	<link href="/templets/default/css/main.css" rel="stylesheet">
+	<script src="/templets/default/js/main.js"></script>
+
+
+<SCRIPT language="javascript" src="/templets/default/js/gotop-plugin.js"></SCRIPT>
+</head>
+<body>
+      <nav class="navbar navbar-default">
+
+      <div class="container" style="margin-top:0px;">
+
+        <div class="row" style="line-height:45px;">
+
+          欢迎光临，看最新win10资讯，下载win10系统就上www.win10os.com！<span class="hidden-xs"><a href="javascript:void(0)" class="pull-right" onclick="alert('按Ctrl+D收藏本站')" title="win10系统">收藏本站</a></span>
+
+        </div>
+
+      </div>      
+
+    </nav>
+
+    <div class="container" style="margin-top:0px;">
+      <div class="row" >
+
+        <div class="col-sm-8 col-md-8">
+
+            <a href="/index.html"><img src="/images/logo.png" alt="Windows10系统下载,Win10激活,Win10教程" width="196" height="64"/></a>
+
+        </div>
+        <div class="col-sm-4 col-md-4">
+        <div style="height:45px;">
+        <form  method="post" id="searchFrm" role="search" action="/plus/search.php">
+            <div class="input-group">
+                <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Search">
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" onclick="searchKey()">搜索</button>
+                </span>
+            </div><!-- /input-group -->
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-custom">
+
+      <div class="container">
+
+
+<!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header navbar-header-custom">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" title="Win10,win10系统,Win10教程" href="/">首页</a>
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav nav-custom">
+			<li><a href="/win10zixun" title="Win10资讯,win10最新资讯" target="_blank">Win10资讯</a></li>
+			<li><a href="/win10xiazai" title="Win10下载,win10系统下载,win10正式版下载" target="_blank">Win10下载</a></li>
+			<li><a href="/win10ruanjian" title="Win10软件,win10小工具" target="_blank">Win10软件</a></li>
+			<li><a href="/win10bizhi" title="Win10壁纸,win10系统壁纸,win10壁纸下载" target="_blank">Win10壁纸</a></li>
+			<li><a href="/win10jiqiao" title="Win10技巧,win10系统技巧,win10" target="_blank">Win10技巧</a></li>
+			<li><a href="/win10youhua" title="Win10优化,win10系统优化" target="_blank">Win10优化</a></li>
+			<li><a href="/win10jihuo" title="Win10激活,win10怎么激活,win10如何激活,win10激活工具" target="_blank">Win10激活</a></li>
+			<li><a href="/win10xitong" title="Win10系统,Win10系统教程,win10正式版激活" target="_blank">Win10系统</a></li>
+		</ul>
+          
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-fluid -->
+
+    </nav>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+       <div class="modal-dialog">
+
+          <div class="modal-content">
+
+             <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" 
+
+                   aria-hidden="true">×
+
+                </button>
+
+                <h4 class="modal-title" id="myModalLabel">
+
+                   搜索提示
+
+                </h4>
+
+             </div>
+
+             <div class="modal-body">
+
+                <div style="height:60px;line-height:60px;">
+
+                  关键字不能小于2个字！
+
+                </div>
+
+             </div>
+
+          </div><!-- /.modal-content -->
+
+       </div><!-- /.modal-dialog -->
+
+    </div><!-- /.modal -->
+<script type="text/javascript">
+  function searchKey(){
+    var keyword = $("#keyword").val();
+    if(keyword.length<2){
+      $('#myModal').modal('show');     
+      return;
+    }else{
+      $("#searchFrm").submit();
+    }
+
+  }
+</script>
+  <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-hidden="true">
+	   <div class="modal-dialog">
+		  <div class="modal-content">
+			 <div class="modal-body">
+				<div id="modal_img" ></div>
+			 </div>
+		  </div>
+	   </div>
+	</div>
+  <div class="container" style="padding-left:0px;padding-right:0px">
+    
+    <div class="col-sm-8  col-md-8">
+      <ol class="breadcrumb">
+      当前位置：<a href='http://www.win10os.com/'>主页</a> > <a href='/win10xitong/'>Win10系统</a> > 
+      </ol>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="art_title">
+            <h3>Win7用户也要升级么？Win10硬件性能测试</h3>
+            <a href="http://www.win10os.com" title="http://www.win10os.com">http://www.win10os.com</a>&nbsp;<a href="http://www.win10os.com">win10系统</a>  发布时间：2014-10-20 10:56 来源：win10系统 浏览：<span id="count"style="font-size:14px;">加载中</span>次
+          </div>
+          <div class="art_body">
+            <div class="art_share"><div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare" style="width:650px;height:50px;padding-top:10px;" >
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more"></span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END --></div></div>
+<div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接，<a href="#" onclick="anchorClick()" style="font-size:20px;color:#fff;">去点赞</a></div>
+            <div id="43" class="art_content"><p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	转眼间Windows7发布已经5年（09年10月22日发布），对于目前操作系统全面化、触控化的需求已经力不从心。微软于是在12年底又推出了全新概念的Windows 8，但用户的实际反馈并不尽如人意，在再次改进之后，全新的Windows10技术预览版横空出世，那么这款系统究竟如何，Win7用户有没有必要进行升级呢？今天我们就来对它进行测试。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564Qc5-0.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="Win7用户也要升级么？Win10硬件性能测试" src="/uploads/allimg/141020/10564Q127-1.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="Win7用户也要升级么？Win10硬件性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　Win8其实是微软的一次大胆尝试，无论是大量的metro元素还是对触控的优化细节都可圈可点，但毕竟实际应用中用户的反馈并不好，所以微软在Win10中也做了很多针对性的修改。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>专为强迫症患者：不叫Win9为哪般？</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　这个问题其实目前还没有官方的答案，有人推测是为了避免与以前经典的Windows95/98系统有所混淆，微软方面则表示&ldquo;Windows 10是一个统一的平台，最终的目的是打造一个跨平台的生态系统，而不是在Windows 8.1基础上进行的增量升级&rdquo;。不得不说微软方面的目标很美好，但用户的满意度就要等待时间的验证了。（在此向Windows9吧的同志表示深切的同情。）</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>首先也是最重要：开始菜单回来了 ！&nbsp;</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<img alt="Win10开始菜单" src="/uploads/allimg/141020/10564RL8-2.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="Win10开始菜单" /><br />
+	新闻纯属乱入......</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　这一点无疑是Win8中被喷的最凶的，一棒子打成metro界面让许多用户完全不能适应。在这次的技术预览版中我们终于重新看到了它，但是还是有一些相应的改变，基本可以总结为左边Win7+右边Win8，选项中也可以重新设置为Win8的样式。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>越来越强大：加强版的应用商店</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564QJ0-3.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="加强版的应用商店" src="/uploads/allimg/141020/10564TW3-4.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="加强版的应用商店" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　应用商店同样曾出现在Windows8中，但是Win10的应用商店已经支持对传统桌面应用的搜索，只是下载还要到软件的官网进行，但后期极有可能会提供直接的安装服务，相信不久的将来，Win10最重要的跨平台特性将从这里出发。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>虚拟拓展的多桌面管理</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564W020-5.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="改进之后的多桌面管理" src="/uploads/allimg/141020/10564S216-6.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="改进之后的多桌面管理" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　这个功能可以看成一个虚拟桌面的管理，可以将不同类型的程序放在不同的桌面，只需切换桌面而无需重新安排程序的窗口，大大提高工作效率。</p>
+<h2 style="margin: 5px 0px; padding: 0px; font-size: 0px; width: 590px; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', tahoma, HELVETICA; line-height: 0; height: 1px; font-weight: normal; background: rgb(189, 219, 255);">
+	&nbsp;</h2>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>Win7/10官方硬件需求对比</strong></p>
+<table align="center" bgcolor="#294f9c" cellpadding="10" cellspacing="1" class="js3TB" style="border-spacing: 0px; height: 26px; color: rgb(51, 51, 51); line-height: 26px; margin: 0px auto; border-style: solid; border-color: rgb(40, 139, 222); width: 600px; font-family: 宋体, 'arial narrow', helvetica; table-layout: auto; background: rgb(40, 139, 222);" width="600">
+	<tbody>
+		<tr>
+			<td colspan="3" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; background: rgb(51, 103, 205);">
+				<div align="center" style="margin: 0px; padding: 0px;">
+					<strong style="background-color: rgb(41, 79, 156);"><span style="color: rgb(255, 255, 255);"><span style="background-color: rgb(51, 103, 205);">系统硬件需求对比</span></span></strong></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 68px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				系统</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; width: 240px; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				<strong>Windows 7</strong></td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; width: 227px; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				<font color="#ff0000"><b>Windows 10</b></font></td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 68px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				CPU</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; width: 240px; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				1GHz及以上(32 位或 64 位处理器）</td>
+			<td bgcolor="#ffffff" class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				1GHz及以上(32 位或 64 位处理器）</td>
+		</tr>
+		<tr>
+			<td class="col21" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 68px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				内存</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				1GB以上(32位)、2GB以上（64位）</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				1GB以上(32位)、2GB以上（64位）</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ecf0f8" class="col21" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(244, 244, 244);" width="100">
+				硬盘</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				16GB</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				16GB</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ecf0f8" class="col21" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(244, 244, 244);" width="100">
+				显卡</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				带有WDDM驱动程序的<br />
+				?MicrosoftDirectX9图形设备</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				带有WDDM驱动程序的<br />
+				?MicrosoftDirectX9图形设备</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ecf0f8" class="col21" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(244, 244, 244);" width="100">
+				其他</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				Microsoft帐户和Internet接入</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				Microsoft帐户和Internet接入</td>
+		</tr>
+	</tbody>
+</table>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　<strong>硬件需求说明：</strong>官方给出的Win10最低配置与Win7的完全一致，也就是说现在能安装Win7的PC安装Win10基本不存在问题，担心升级Win10需要再买新硬件的小伙伴貌似可以暂时放心了。那么同样的硬件在Win10和Win7的表现中又有什么样的差异呢？接下来让我们在实际测试中来验证一下。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<div class="pageNumber" style="margin: 20px 0px 0px; padding: 25px 0px 5px; border-top-width: 1px; border-top-style: dashed; border-top-color: rgb(229, 229, 229); line-height: 26px; height: 26px; overflow: hidden; zoom: 1; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', tahoma, HELVETICA;">
+	<span class="sNum" style="width: 26px; height: 26px; line-height: 25px; color: rgb(255, 255, 255); font-size: 18px; float: left; text-align: center; background: url(http://www1.pconline.com.cn/2014/art/images/art_bg.png) -53px -30px no-repeat;">2</span><span class="sTit" style="width: 600px; height: 24px; line-height: 24px; color: rgb(0, 119, 221); font-size: 20px; padding-left: 12px; float: left;">测试平台说明及测试项目说明</span></div>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>测试平台说明及测试项目说明</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564R439-7.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="测试平台" src="/uploads/allimg/141020/10564WU3-8.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="测试平台" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564Vb6-9.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none; font-family: 宋体, 'arial narrow', helvetica; font-size: 12px; line-height: 26px; white-space: nowrap;" target="_blank"><img alt="Windows 10 Technical Prev" src="/uploads/allimg/141020/10564R157-10.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="Windows 10 Technical Prev" /></a></p>
+<table align="center" bgcolor="#294f9c" cellpadding="10" cellspacing="1" class="js3TB" style="border-spacing: 0px; height: 26px; color: rgb(51, 51, 51); line-height: 26px; margin: 0px auto; border-style: solid; border-color: rgb(40, 139, 222); width: 600px; font-family: 宋体, 'arial narrow', helvetica; table-layout: auto; background: rgb(40, 139, 222);" width="600">
+	<tbody>
+		<tr>
+			<td colspan="2" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; background: rgb(51, 103, 205);">
+				<div align="center" style="margin: 0px; padding: 0px;">
+					<font color="#ffffff"><b>硬件平台</b></font></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				CPU</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				Intel Pentium G840</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ecf0f8" class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(244, 244, 244);" width="100">
+				主板</td>
+			<td bgcolor="#ffffff" class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				富士康Z75M-S</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ecf0f8" class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(244, 244, 244);" width="100">
+				内存</td>
+			<td bgcolor="#ffffff" class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				金士顿 DDR3 1333 4GB</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ecf0f8" class="col21" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(244, 244, 244);" width="100">
+				硬盘</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				西部数据 1TB 蓝盘</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ecf0f8" class="col21" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(244, 244, 244);" width="100">
+				电源</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				金河田S600守护者</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ecf0f8" class="col21" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(244, 244, 244);" width="100">
+				显卡</td>
+			<td bgcolor="#ffffff" class="col22" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				<div style="margin: 0px; padding: 0px; text-align: left;">
+					AMD Raedeon HD7770</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; background: rgb(51, 103, 205);">
+				<div align="center" style="margin: 0px; padding: 0px;">
+					<font color="#ffffff"><b>软件平台</b></font></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				操作系统</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				Windows 7 ulimate 64bit / Windows 10&nbsp;Technical Preview 64bit</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ecf0f8" class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(244, 244, 244);" width="100">
+				显卡驱动</td>
+			<td bgcolor="#ffffff" class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);" width="500">
+				<div style="margin: 0px; padding: 0px; text-align: left;">
+					系统自带 / AMD催化剂14.9</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; background: rgb(51, 103, 205);">
+				<div align="center" style="margin: 0px; padding: 0px;">
+					<font color="#ffffff"><b>测试项目</b></font></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				CPU理论测试</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				国际象棋测试 Fritz Chess Benchmark</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				GPU理论测试</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				3DMark 11 Perfromance模式<br />
+				新3DMark&nbsp;Perfromance模式</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				日常应用测试</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				WinRAR 5.10 64位（文件压缩）<br />
+				Photoshop CC 64位（图片处理）<br />
+				IE11（w浏览器/HTML5测试）</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				游戏测试</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				古墓丽影9<br />
+				热血无赖<br />
+				地铁：余光</td>
+		</tr>
+	</tbody>
+</table>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　<strong>测试平台说明：</strong>这次的测试中我们并没有使用最新的Z97+4770K的一贯组合，而是专门找了一台能代表3年前PC性能的老电脑来进行测试，因为如果这样的老电脑升级Win10不成问题的话，新电脑相信也不会有什么问题了。软件方面，我们这次测试的对象是Win10目前最新的技术预览版，版本号为Build 9841。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<div class="pageNumber" style="margin: 20px 0px 0px; padding: 25px 0px 5px; border-top-width: 1px; border-top-style: dashed; border-top-color: rgb(229, 229, 229); line-height: 26px; height: 26px; overflow: hidden; zoom: 1; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', tahoma, HELVETICA;">
+	<span class="sNum" style="width: 26px; height: 26px; line-height: 25px; color: rgb(255, 255, 255); font-size: 18px; float: left; text-align: center; background: url(http://www1.pconline.com.cn/2014/art/images/art_bg.png) -53px -30px no-repeat;">3</span><span class="sTit" style="width: 600px; height: 24px; line-height: 24px; color: rgb(0, 119, 221); font-size: 20px; padding-left: 12px; float: left;">系统评分、开关机、硬盘内存占用</span></div>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>系统基本性能</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>1、系统评分：Win10就没有...</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564UN3-11.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="系统评分：Win10就没有" src="/uploads/allimg/141020/10564T0H-12.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="系统评分：Win10就没有" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　作为衡量系统性能重要指标之一的系统评分在这次的Win10技术预览版中已经消失不见，这一功能在之前的Win8中还存在，作为一个自带的硬件性能指标参考，不排除在后面的版本中会重新添加进来。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>2、启动/关机/重启：Win10有加成</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　在之前的Win8中，全新的休眠和启动技术就使得启动和重启的速度大大加快，Win10也延续了这样的特性。这一点在开机的环节比较明显，而在关机和重启的环节跟Win7的表现比较相近。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564T4H-13.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="启动/关机/重启：Win10有加成" src="/uploads/allimg/141020/10564U096-14.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px; width: 295px;" title="启动/关机/重启：Win10有加成" /></a>&nbsp;&nbsp;<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564U1I-15.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="启动/关机/重启：Win10有加成" src="/uploads/allimg/141020/10564Q162-16.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px; height: 206px; width: 295px;" title="启动/关机/重启：Win10有加成" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　另外我们注意到，驱动的有无对系统的重启和关机影响很大，仅仅是安装一个官方的AMD驱动，两个系统的耗时就增加了一半，同时可以看出Win10优势最大的环节在于系统启动时间。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>3、硬盘占用：有所增加</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564W195-17.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="硬盘占用：小幅增加" src="/uploads/allimg/141020/10564T5O-18.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="硬盘占用：小幅增加" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564S123-19.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="硬盘占用：小幅增加" src="/uploads/allimg/141020/10564Q553-20.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="硬盘占用：小幅增加" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　在磁盘空间占用对比中，我们剔除了虚拟内存文件的的大小，然后对比操作系统主体的占用。与Win7相比，Win10系统安装之后占用的硬盘空间再次增加，从10.2GB增加为12.1GB。看来要实现跨平台的话系统大小也要付出一定代价。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>4、内存占用：又要升级内存了？</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564W342-21.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="内存占用：又要升级内存了？" src="/uploads/allimg/141020/10564QA1-22.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="内存占用：又要升级内存了？" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564S2Q-23.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="内存占用：又要升级内存了？" src="/uploads/allimg/141020/10564QY6-24.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="内存占用：又要升级内存了？" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　这一个环节我们对系统开机初期和开机1分钟之后的的内存占用进行对比，从结果可以看到Win10的系统内存占用有大幅度的增长，对于某些内存本身就比较紧张的用户来说可能需要升级内存了。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　<strong>测试小结：</strong>在开关机和重启方面，Win10与Win8一样做了很多优化，在开机方面基本可以做到比Win7快一半，在关机和重启方面保持一致。而硬盘占用的增加，从Win10的跨平台系统的目标来理解的话，2GB的系统大小增加还是可以接受的，但是内存占用的大幅增长就让人有些看不懂，希望这是技术预览版单独的bug吧，不然又要升级内存了啊。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<div class="pageNumber" style="margin: 20px 0px 0px; padding: 25px 0px 5px; border-top-width: 1px; border-top-style: dashed; border-top-color: rgb(229, 229, 229); line-height: 26px; height: 26px; overflow: hidden; zoom: 1; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', tahoma, HELVETICA;">
+	<span class="sNum" style="width: 26px; height: 26px; line-height: 25px; color: rgb(255, 255, 255); font-size: 18px; float: left; text-align: center; background: url(http://www1.pconline.com.cn/2014/art/images/art_bg.png) -53px -30px no-repeat;">4</span><span class="sTit" style="width: 600px; height: 24px; line-height: 24px; color: rgb(0, 119, 221); font-size: 20px; padding-left: 12px; float: left;">综合理论测试：与Win7木有区别</span></div>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>综合理论测试成绩：与Win7木有区别</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●CPU理论测试：Fritz Benchmark</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564S235-25.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none; font-family: 宋体, 'arial narrow', helvetica; font-size: 12px; line-height: 26px; white-space: nowrap;" target="_blank"><img alt="CPU理论测试：Fritz Benchmark" src="/uploads/allimg/141020/10564U528-26.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="CPU理论测试：Fritz Benchmark" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564V227-27.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="CPU理论测试：Fritz Benchmark" src="/uploads/allimg/141020/10564W364-28.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="CPU理论测试：Fritz Benchmark" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>● AIDA64 内存性能测试&nbsp;</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564RF7-29.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="AIDA64 内存性能测试" src="/uploads/allimg/141020/10564W443-30.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="AIDA64 内存性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564U2V-31.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="AIDA64 内存性能测试" src="/uploads/allimg/141020/10564V342-32.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="AIDA64 内存性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●3DMark11</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　因为我们选用的显卡HD7770型号比较久，所以Win10在安装完毕之后直接就装上了系统自带的驱动，而且在设备管理器中也识别正确。但是原装驱动在运行3DMark时会提示程序出错。所以本次测试中的成绩均为安装AMD官方最新的14.9驱动所取得的。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564V342-33.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="3DMark11" src="/uploads/allimg/141020/10564U2U-34.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="3DMark11" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564WA4-35.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="3DMark11" src="/uploads/allimg/141020/10564SS8-36.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="3DMark11" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●新3DMark11</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564W928-37.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="新3DMark11" src="/uploads/allimg/141020/10564U607-38.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="新3DMark11" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564Q1Q-39.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="新3DMark11" src="/uploads/allimg/141020/10564Q419-40.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="新3DMark11" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　<strong>测试小结：</strong>在对CPU、内存、GPU的性能进行理论测试之后我们可以发现，Win10在这方面与Win7保持完全一致，成绩的差别甚至可以直接作为误差来看待。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<div class="pageNumber" style="margin: 20px 0px 0px; padding: 25px 0px 5px; border-top-width: 1px; border-top-style: dashed; border-top-color: rgb(229, 229, 229); line-height: 26px; height: 26px; overflow: hidden; zoom: 1; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', tahoma, HELVETICA;">
+	<span class="sNum" style="width: 26px; height: 26px; line-height: 25px; color: rgb(255, 255, 255); font-size: 18px; float: left; text-align: center; background: url(http://www1.pconline.com.cn/2014/art/images/art_bg.png) -53px -30px no-repeat;">5</span><span class="sTit" style="width: 600px; height: 24px; line-height: 24px; color: rgb(0, 119, 221); font-size: 20px; padding-left: 12px; float: left;">日常应用性能：差别还是不大</span></div>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>日常应用性能：差别还是不大</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●WinRAR压缩性能测试</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564T161-41.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="WinRAR压缩性能测试" src="/uploads/allimg/141020/10564W0A-42.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="WinRAR压缩性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564U422-43.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="WinRAR压缩性能测试" src="/uploads/allimg/141020/10564T463-44.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="WinRAR压缩性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●Cinebench R11.5 3D渲染性能测试&nbsp;</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564W492-45.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="Cinebench R11.5 3D渲染性能测试" src="/uploads/allimg/141020/10564V5L-46.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="Cinebench R11.5 3D渲染性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564UC4-47.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="Cinebench R11.5 3D渲染性能测试" src="/uploads/allimg/141020/10564R0F-48.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="Cinebench R11.5 3D渲染性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●PhotoShop图片处理测试</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564TU9-49.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="PhotoShop图片处理测试" src="/uploads/allimg/141020/10564T0P-50.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="PhotoShop图片处理测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564Q959-51.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="PhotoShop图片处理测试" src="/uploads/allimg/141020/10564T4V-52.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="PhotoShop图片处理测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●浏览器/HTML5性能测试</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564T108-53.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="浏览器/HTML5性能测试" src="/uploads/allimg/141020/10564U236-54.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="浏览器/HTML5性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564Q957-55.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="浏览器/HTML5性能测试" src="/uploads/allimg/141020/10564SH4-56.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="浏览器/HTML5性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●文件读写性能测试</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564TA6-57.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="文件读写性能测试" src="/uploads/allimg/141020/10564U450-58.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="文件读写性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564R113-59.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="文件读写性能测试" src="/uploads/allimg/141020/10564VU7-60.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="文件读写性能测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　<strong>测试小结：</strong>实际应用测试中的成绩保持了理论测试中的趋势，只有在文件读取测试中的成绩差别比较大，相信也是新系统对旧硬件的支持不到位在作祟。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<div class="pageNumber" style="margin: 20px 0px 0px; padding: 25px 0px 5px; border-top-width: 1px; border-top-style: dashed; border-top-color: rgb(229, 229, 229); line-height: 26px; height: 26px; overflow: hidden; zoom: 1; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', tahoma, HELVETICA;">
+	<span class="sNum" style="width: 26px; height: 26px; line-height: 25px; color: rgb(255, 255, 255); font-size: 18px; float: left; text-align: center; background: url(http://www1.pconline.com.cn/2014/art/images/art_bg.png) -53px -30px no-repeat;">6</span><span class="sTit" style="width: 600px; height: 24px; line-height: 24px; color: rgb(0, 119, 221); font-size: 20px; padding-left: 12px; float: left;">游戏支持与性能：Win10兼容问题大</span></div>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>游戏支持与性能：Win10兼容问题较大</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　刚进入游戏测试，Win10的兼容问题一下子暴露出来，虽然Win10直接内置的最新版DirectX对游戏提供了很好的支持，但是很多单机游戏都必须的VC运行库还需要用户自行下载安装。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564W037-61.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="游戏兼容是个大问题" src="/uploads/allimg/141020/10564S349-62.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="游戏兼容是个大问题" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　在安装了Win7中游戏所需的各种运行库之后，还是有部分游戏不能正常运行，包括大名鼎鼎的《孤岛危机3》，错误提示的信息为程序错误，相信是与Win10的系统改动有关系。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564Q352-63.png&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="游戏兼容是个大问题" src="/uploads/allimg/141020/10564V495-64.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="游戏兼容是个大问题" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　而网游方面的兼容更差，《英雄联盟》和《剑灵》这两款热门的网络游戏都不能正常启动，很有可能是因为其账号保护程序与Win10不兼容造成的。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<a href="http://www.pconline.com.cn/study_gra_pic/556/5560096_pic.html?imgsrc=/uploads/allimg/141020/10564W041-65.jpg&amp;channel=1529" style="color: rgb(51, 51, 51); text-decoration: none;" target="_blank"><img alt="游戏测试" src="/uploads/allimg/141020/10564R1M-66.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="游戏测试" /></a></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　<strong>测试小结：</strong>经过不懈的尝试，最终有三款主流的单机游戏终于能正常运行了，成绩基本与Win7相差不大，只有热血无赖的差异较大。从目前的兼容程度来说，我们不推荐游戏发烧友将自己的系统升级为Win10。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<div class="pageNumber" style="margin: 20px 0px 0px; padding: 25px 0px 5px; border-top-width: 1px; border-top-style: dashed; border-top-color: rgb(229, 229, 229); line-height: 26px; height: 26px; overflow: hidden; zoom: 1; color: rgb(51, 51, 51); font-family: 'Microsoft Yahei', tahoma, HELVETICA;">
+	<span class="sNum" style="width: 26px; height: 26px; line-height: 25px; color: rgb(255, 255, 255); font-size: 18px; float: left; text-align: center; background: url(http://www1.pconline.com.cn/2014/art/images/art_bg.png) -53px -30px no-repeat;">7</span><span class="sTit" style="width: 600px; height: 24px; line-height: 24px; color: rgb(0, 119, 221); font-size: 20px; padding-left: 12px; float: left;">PConline总结：Win7无需急于升级</span></div>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	&nbsp;</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>PConline评测室总结：</strong></p>
+<table align="center" bgcolor="#294f9c" cellpadding="10" cellspacing="1" class="js3TB" style="border-spacing: 0px; height: 26px; color: rgb(51, 51, 51); line-height: 26px; margin: 0px auto; border-style: solid; border-color: rgb(40, 139, 222); width: 600px; font-family: 宋体, 'arial narrow', helvetica; table-layout: auto; background: rgb(40, 139, 222);" width="600">
+	<tbody>
+		<tr>
+			<td colspan="3" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; background: rgb(51, 103, 205);">
+				<div align="center" style="margin: 0px; padding: 0px;">
+					<font color="#ffffff"><b>Windows 7 / Windows 10 系统硬件表现对比</b></font></div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; text-align: center; background: rgb(236, 240, 248);">
+				系统基本属性</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 112px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				&nbsp;</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				Win 7</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				Win 10</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 112px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				开机时间</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				<span style="color: rgb(255, 0, 0);">54%</span></td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 112px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				关机时间</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				<span style="color: rgb(255, 0, 0);">110%</span></td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 112px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				重启时间</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				103%</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 112px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				硬盘占用</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				<span style="color: rgb(255, 0, 0);">120%</span></td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 112px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				内存占用</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 108px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				<span style="color: rgb(255, 0, 0);">128%</span></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; text-align: center; background: rgb(236, 240, 248);">
+				综合理论性能</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				国际象棋</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				102%</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				内存性能</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				图形性能</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; text-align: center; background: rgb(236, 240, 248);">
+				日常应用表现</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				Winrar</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				99%</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				3D渲染</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				98%</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				图片处理（耗时）</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				102%</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				HTML5:自带</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				102%</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				文件读写（耗时）</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				<span style="color: rgb(255, 0, 0);">95%</span></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; text-align: center; background: rgb(236, 240, 248);">
+				3D游戏性能</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				古墓丽影9</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				102%</td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				热血无赖</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				<span style="color: rgb(255, 0, 0);">115%</span></td>
+		</tr>
+		<tr>
+			<td class="col11" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(236, 240, 248);">
+				地铁：余光</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 221px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				100%</td>
+			<td class="col12" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); text-align: center; width: 202px; white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				97%</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="margin: 0px; padding: 5px 10px; font-size: 16px; white-space: nowrap; text-align: center; background: rgb(236, 240, 248);">
+				总结</td>
+		</tr>
+		<tr>
+			<td class="col11" colspan="3" style="margin: 0px 0px -1px; padding: 5px 10px; font-size: 14px; height: 30px; line-height: 30px; border-bottom-style: solid; border-bottom-color: rgb(229, 229, 229); border-right-style: solid; border-right-color: rgb(229, 229, 229); width: 122px; text-align: center; color: rgb(153, 153, 153); white-space: nowrap; font-family: 'Microsoft Yahei' !important; background: rgb(255, 255, 255);">
+				开机速度更快，内存占用上升，系统大小有所增加，系统软件兼容性较差</td>
+		</tr>
+	</tbody>
+</table>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●Win10其实就是Win8部分妥协之后的产物</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<img alt="Win10开始菜单" src="/uploads/allimg/141020/10564RL8-2.png" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="Win10开始菜单" /><br />
+	Win10的开始菜单可以概括为：左边Win7+右边Win8</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　Win10在系统的外观和操作设计上与Win8可谓是亲兄弟，很多地方都可以看到Win8的影子。但是Win8推出之后，在桌面领域获得的反馈实在不好，从这次Win10重新添加了开始菜单我们就可以看出微软在这方面的妥协。与其直接打造一个多平台都能适用的系统，倒不如包多个平台分别适用的系统融合成一个。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　整体上来说，Win10系统的更新对于桌面级的用户来说实在意义不大，而且目前Win7的成熟度已经很高，这样小幅度的改进对消费者的吸引力堪忧。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●硬件需求方面绝大部分与Win7持平，只有内存需求增加</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　Win10在硬件需求方面基本与Win7持平，但系统空闲时的内存占用有50%左右的增加，Win10并没有像Win8那样对内存占用有所减少，这一点可能会进一步恶化小内存用户的系统使用体验。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●预览版系统稳定性和软件兼容性问题较大</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51); text-align: center;">
+	<img alt="系统稳定性和软件兼容性问题较大" src="/uploads/allimg/141020/10564U235-68.jpg" style="border: 1px solid rgb(204, 204, 204); vertical-align: top; transition: opacity 0.2s; -webkit-transition: opacity 0.2s; max-width: 600px;" title="系统稳定性和软件兼容性问题较大" /><br />
+	手机拍照效果略渣，请不要在意这些细节</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　在我们对Win10技术预览版进行评测的过程中，除了软件的不兼容问题之外，系统的稳定性也比较堪忧，在我们安装完系统之后第一次的重启过程中就有幸体验了一次全新的蓝屏界面。但重启之后也没有什么影响，驱动方面用于Win8的基本都可以直接使用，不排除部分会出错。</p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	<strong>●Win7用户暂时没有升级需求</strong></p>
+<p style="margin: 20px 0px; padding: 0px; height: auto; overflow: visible; font-size: 16px; line-height: 30px; font-family: 'Microsoft Yahei'; word-break: break-all; color: rgb(51, 51, 51);">
+	　　Win10作为一个界面平面化，部分功能增强化的Win7系统对于绝大部分普通用户来说真心没有升级的必要，而且目前Win10的版本还停留在技术预览版，之后推出的正式版还会做出很多的修改，想尝鲜的用户也请等到那个时候。</p>
+</div>
+            <div class="well bg-danger" style="text-align:center;font-size:20px;color:#ffcec3;background:#d84e5b;">点赞后即可看到下载链接</div>
+  	    <!-- 将此标记放在您希望显示like按钮的位置 -->          
+            <div class="art_like"><div class="bdlikebutton"></div></div>
+            <div style="text-align:center;font-size:20px;font-weight:bold;color:#ff0000">亲，如果能帮助到你,帮忙《打赏1-10元》给小编一口饭吃！</div>
+            <div style="text-align:center">
+			<img src="/templets/default/images/thanks.gif" width="160" height="160"/>
+			<img src="/templets/default/images/weixin.png" width="250" height="250"/>
+			<img src="/templets/default/images/thanks.gif" width="160" height="160"/>
+			</div>
+          </div>
+        </div>
+      </div>
+      <div class="pnum">
+        <div class="pages mypagelist">
+          <div></div>
+        </div>
+      </div>
+      <div class="pre_next">
+        <nav>
+          <ul class="pager">
+            <li class="previous">上一篇：<a href='/win10xitong/2014/1014/20.html'>如何安装Windows10,接下来就带你体验一下</a> </li>
+            <li class="next">下一篇：<a href='/win10xitong/2014/1022/51.html'>微软发布最新技术预览版Win10：加入通知中心</a> </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="well"> 
+    		如果你有好的<a href="http://www.win10os.com/win10zixun" title="win10资讯">win10资讯</a>或者<a href="http://www.win10os.com/win10jiqiao" title="win10教程">win10教程</a>，以及<a href="http://www.win10os.com/win10xitong" title="win10">win10</a>相关的问题想要获得<a href="http://www.win10os.com/win10xiazai" title="win10系统下载">win10系统下载</a>的关注与报道。<br/>欢迎加入发送邮件到657025171#qq.com(#替换为@)。期待你的好消息！
+    	</div>  
+      <div class="row">
+        
+          <div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10xitong/2014/1014/20.html'><img src='/uploads/allimg/141014/0921592W5-0-lp.jpg' border='0' width='120' height='120' alt='如何安装Windows10,接下来就带你体验一下'></a>
+              <div class="caption">
+                <p><a href='/win10xitong/2014/1014/20.html'>如何安装Windows10,接下</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10xitong/2015/0403/586.html'><img src='/uploads/allimg/150403/0922431292-0-lp.jpg' border='0' width='120' height='120' alt='win10安装教程：UEFI模式安装Win10系统教程'></a>
+              <div class="caption">
+                <p><a href='/win10xitong/2015/0403/586.html'>win10安装教程：UEFI模式</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10xitong/2014/1202/232.html'><img src='/uploads/allimg/141204/1-141204092T9-lp.jpg' border='0' width='120' height='120' alt='Win10系统下图片查看器全屏看图及退出全屏模式的'></a>
+              <div class="caption">
+                <p><a href='/win10xitong/2014/1202/232.html'>Win10系统下图片查看器</a></p>              
+                
+              </div>
+            </div>
+          </div>
+<div class="col-sm-3 col-md-3">
+            <div class="thumbnail thumbnail-custom">
+              <a href='/win10xitong/2014/1202/233.html'><img src='/uploads/allimg/141202/1H035O16-0-lp.jpg' border='0' width='120' height='120' alt='Win10系统备份方法在必要时进行恢复系统'></a>
+              <div class="caption">
+                <p><a href='/win10xitong/2014/1202/233.html'>Win10系统备份方法在必</a></p>              
+                
+              </div>
+            </div>
+          </div>
+
+        
+      </div>
+    </div>
+    <!--右侧部分-->
+    <div class="col-sm-4 col-md-4">
+      <script src='/plus/ad_js.php?aid=12' language='javascript'></script>
+      <div class="panel panel-custom panel-custom-right">
+        <div class="panel-heading">最新文章>>></div>
+        <div class="panel-body">
+          <ul class="all_list">
+            <li><a href="/win10xitong/2014/1014/20.html" >如何安装Windows10,接下来就带你体验一下</a><span>02.05</span></li>
+<li><a href="/win10xitong/2015/0403/586.html" >win10安装教程：UEFI模式安装Win10系统教程</a><span>04.03</span></li>
+<li><a href="/win10xitong/2014/1210/308.html" >win8关机在哪？怎么关机如何关机</a><span>12.10</span></li>
+<li><a href="/win10xitong/2014/1210/307.html" >win7 64位旗舰版激活码 win7旗舰版激活产品密钥</a><span>12.10</span></li>
+<li><a href="/win10xitong/2014/1210/306.html" >无线路由器提示wan口未连接是什么意思？</a><span>12.10</span></li>
+<li><a href="/win10xitong/2014/1210/305.html" >Mb是什么意思，1Mb等于多少Kb?</a><span>12.10</span></li>
+<li><a href="/win10xitong/2014/1202/232.html" >Win10系统下图片查看器全屏看图及退出全屏模式的</a><span>12.04</span></li>
+<li><a href="/win10xitong/2014/1202/233.html" >Win10系统备份方法在必要时进行恢复系统</a><span>12.04</span></li>
+<li><a href="/win10xitong/2014/1203/242.html" >Win10预览版9879更新：修复文件管理器崩溃</a><span>12.03</span></li>
+<li><a href="/win10xitong/2014/1202/234.html" >Win10系统将搜索按钮变成搜索栏不用再点一次搜索</a><span>12.02</span></li>
+ 
+          </ul>
+        </div>
+      </div>  
+      <script src='/plus/ad_js.php?aid=14' language='javascript'></script>
+      <div id="scr_cont" class="panel panel-custom panel-custom-right">
+        <div class="panel-heading">相关热门>>></div>
+        <div class="panel-body">
+          <ul class="all_list">
+            <li><a href="/win10xitong/2014/1014/20.html" >如何安装Windows10,接下来就带你体</a><span>5663</span></li>
+<li><a href="/win10xitong/2014/1114/160.html" >win10 intel核心显卡驱动问题解决！</a><span>4387</span></li>
+<li><a href="/win10xitong/2015/0403/586.html" >win10安装教程：UEFI模式安装Win10系</a><span>2543</span></li>
+<li><a href="/win10xitong/2014/1202/233.html" >Win10系统备份方法在必要时进行恢</a><span>2071</span></li>
+<li><a href="/win10xitong/2014/1210/307.html" >win7 64位旗舰版激活码 win7旗舰版激</a><span>1914</span></li>
+<li><a href="/win10xitong/2014/1210/306.html" >无线路由器提示wan口未连接是什么</a><span>1419</span></li>
+<li><a href="/win10xitong/2014/1127/217.html" >Win10命令提示符窗口全屏显示操作</a><span>1327</span></li>
+<li><a href="/win10xitong/2014/1127/220.html" >windows10怎么样?Win10新功能体验全面</a><span>757</span></li>
+<li><a href="/win10xitong/2014/1126/209.html" >win10 32位运行dnf蓝屏的代码汇总及</a><span>725</span></li>
+<li><a href="/win10xitong/2014/1108/136.html" >win10安装失败怎么办</a><span>685</span></li>
+ 
+          </ul>
+          </ul>
+        </div>
+      </div>
+      <script src='/plus/ad_js.php?aid=15' language='javascript'></script>
+    </div>
+    
+  </div>
+  <nav class="navbar navbar-default navbar-fixed-bottom navbar-bottom-custom">
+    <div class="container">
+      <span class="pull-right navbar-text" id="font_smaller" onclick="changeFont('smaller')">A-</span>&nbsp;&nbsp;<span class="pull-right navbar-text" id="font_bigger" onclick="changeFont('bigger')">A+</span>
+    </div>
+  </nav>
+  <div class="footer">
+	<div class="foot">
+		<ul>
+			<li>
+				<a href="/win10zixun" title="Win10资讯,win10最新资讯,win10最新消息" target="_blank">Win10资讯</a>
+				<a href="/win10xiazai" title="Win10下载,win10下载地址,win10系统下载,win10如何下载"  target="_blank">Win10下载</a>
+				<a href="/win10ruanjian" title="Win10软件,win10小工具" target="_blank">Win10软件</a>
+				<a href="/win10zhuti" title="Win10主题,win10系统主题,win10主题下载" target="_blank">Win10主题</a>
+				<a href="/win10bizhi" title="Win10壁纸,win10系统壁纸,win10壁纸下载" target="_blank">Win10壁纸</a>
+				<a href="/win10jiqiao"  title="Win10技巧,win10系统技巧,win10" target="_blank">Win10技巧</a>
+				<a href="/win10youhua" title="Win10优化,win10系统优化" target="_blank">Win10优化</a>
+				<a href="/win10jihuo" title="Win10激活,win10怎么激活,win10如何激活,win10激活工具,win10激活密钥" target="_blank">Win10激活</a>
+				<a href="/win10xitong" title="Win10系统,Win10系统教程" target="_blank">Win10系统</a>
+			</li>
+		</ul>
+		<ul>
+			<li><a href="/aboutus.html" target="_blank">关于我们</a> | <a href="/contactus.html" target="_blank">联系我们</a> | <a href="/copyright.html" target="_blank">版权声明</a> | <a href="/sitemap.xml" target="_blank">网站地图</a></li>
+                        <li>本站发布的系统与软件仅为个人学习测试使用，请在下载后24小时内删 除，不得用于任何商业用途，否则后果自负。</li>
+                        <li>Copyright © 2014 - 2016 win10os.com All Rights Reserved.</li>
+                        <li>win10os 版权所有 京ICP备11048740号</li>
+		</ul>
+	</div>
+</div>
+<!-- win10os.com Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?be73a9ebf08a1a67fa05d4ab1764622e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+ 
+  <span id="count_data" style="display:none">
+    <script src="/plus/count.php?view=yes&aid=43&mid=1" type='text/javascript' language="javascript">
+    </script>
+  </span>
+  <script type="text/javascript">
+    document.getElementById('count').innerHTML = document.getElementById('count_data').innerHTML;
+  </script>
+    <script>
+      var img = $(".art_content p").find("img")
+      $.each(img,function(index,el){
+        el.style.width='100%';
+      });
+    </script>
+
+  <!-- 将此代码放在适当的位置，建议在body结束前 -->
+  <script id="bdlike_shell"></script>
+  <script>
+
+  var bdShare_config = {
+
+  	"type":"large",
+
+  	"color":"blue",
+
+  	"likeText":"内容很精彩",
+
+  	"likedText":"您已顶过，谢谢！"
+
+  };
+
+  document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + Math.ceil(new Date()/3600000);
+
+  </script>
+  <script src="/templets/default/js/article.js"></script>
+</body>
+</html>
