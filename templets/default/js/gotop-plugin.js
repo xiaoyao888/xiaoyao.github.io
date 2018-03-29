@@ -21,7 +21,7 @@ obj.onclick = function() {
 	}
 }
 
-<!-- var temp = '<div id="myModalHb" class="modal fade" tabindex="-1" role="dialog">';
+/* var temp = '<div id="myModalHb" class="modal fade" tabindex="-1" role="dialog">';
 temp+='  <div class="modal-dialog" role="document">';
 temp+='    <div class="modal-content">';
 temp+='      <div class="modal-header">';
@@ -35,4 +35,4 @@ temp+='    </div>';
 temp+='  </div>';
 temp+='</div>';
 $("body").prepend(temp);
-$("#myModalHb").modal("show");-->
+$("#myModalHb").modal("show");*/
