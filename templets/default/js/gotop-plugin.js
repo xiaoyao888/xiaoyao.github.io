@@ -21,7 +21,7 @@ obj.onclick = function() {
 	}
 }
 
-var temp = '<div id="myModalHb" class="modal fade" tabindex="-1" role="dialog">';
+<!-- var temp = '<div id="myModalHb" class="modal fade" tabindex="-1" role="dialog">';
 temp+='  <div class="modal-dialog" role="document">';
 temp+='    <div class="modal-content">';
 temp+='      <div class="modal-header">';
@@ -31,8 +31,8 @@ temp+='          </div>';
 temp+='      <div class="modal-body">';
 temp+='        <p style="text-align:center"><center><h3>迎娶白富美，走上人生巅峰，就靠你们了。<br/>快快扫二维码领红包吧！<br/><img src="/templets/default/images/alipay-hb.jpg" width="300"/></center></p>';
 temp+='      </div>';
-temp+='    </div><!-- /.modal-content -->';
-temp+='  </div><!-- /.modal-dialog -->';
-temp+='</div><!-- /.modal -->';
+temp+='    </div>';
+temp+='  </div>';
+temp+='</div>';
 $("body").prepend(temp);
-$("#myModalHb").modal("show");
+$("#myModalHb").modal("show");-->
